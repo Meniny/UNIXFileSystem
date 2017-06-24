@@ -1,0 +1,16 @@
+PODS:
+  - UNIXFileSystem (1.0.0)
+
+DEPENDENCIES:
+  - UNIXFileSystem (from `../`)
+
+EXTERNAL SOURCES:
+  UNIXFileSystem:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UNIXFileSystem: cbd81ea7ba5708b88229111b30d2f52352f1bc40
+
+PODFILE CHECKSUM: '0285448370a4c396e945ee039e191ea66c997780'
+
+COCOAPODS: 1.2.1

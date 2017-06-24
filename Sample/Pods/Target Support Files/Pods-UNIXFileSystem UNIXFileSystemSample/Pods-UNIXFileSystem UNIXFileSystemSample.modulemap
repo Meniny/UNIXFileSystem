@@ -1,0 +1,6 @@
+framework module Pods_UNIXFileSystem_UNIXFileSystemSample {
+  umbrella header "Pods-UNIXFileSystem UNIXFileSystemSample-umbrella.h"
+
+  export *
+  module * { export * }
+}

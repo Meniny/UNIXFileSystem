@@ -1,0 +1,6 @@
+framework module UNIXFileSystem {
+  umbrella header "UNIXFileSystem-umbrella.h"
+
+  export *
+  module * { export * }
+}
