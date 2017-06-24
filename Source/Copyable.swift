@@ -1,0 +1,29 @@
+//
+//  Copyable.swift
+//  UNIXFileSystem
+//
+//  Created by Meniny on 23/02/2016.
+//  Copyright © 2016 Meniny. All rights reserved.
+//
+
+import Foundation
+
+/// `Copyable` `protocol` for an `Item` that can be a copied.
+public protocol Copyable: Item {
+    /// Copies the instance of the conforming type to the specified path, returning the copy.
+    func copy(to path: Path) throws -> Self
+}
+
+extension Copyable {
+    /// Returns a copy of the `Item` at the specified `Path`.
+    ///
+    /// - parameter path: The path to copy the item too.
+    ///
+    /// - throws: An `Error`.
+    ///
+    /// - returns: A copy of the item.
+    public func copy(to path: Path) throws -> Self {
+        try FileManager.default.copyItem(at: self.path.url, to: path.url)
+        return path.item! as! Self
+    }
+}
