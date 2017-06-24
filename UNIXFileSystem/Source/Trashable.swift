@@ -24,7 +24,7 @@ extension UFSTrashable {
     mutating public func trash() throws {
         var resultingURL: NSURL?
         try FileManager.default.trashItem(at: path.url, resultingItemURL: &resultingURL)
-        self.path = UFSPath(resultingURL as! URL)
+        self.path = UFSPath(resultingURL! as URL)
     }
     #endif
 }
