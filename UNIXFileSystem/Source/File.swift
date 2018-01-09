@@ -9,7 +9,9 @@
 import Foundation
 
 /// `UFSFile` is the base `protocol` for a single file.
-public protocol UFSFile: UFSItem, UFSSubitem, UFSCopyable, UFSCopyableSubitem, UFSMoveable, UFSMoveableSubitem, UFSRenameable, UFSRemoveable, UFSTrashable, UFSLinkable, UFSSymbolicLinkable, UFSAliasable {}
+//public protocol UFSFile: UFSItem, UFSSubitem, UFSCopyable, UFSCopyableSubitem, UFSMoveable, UFSMoveableSubitem, UFSRenameable, UFSRemoveable, UFSTrashable, UFSLinkable, UFSSymbolicLinkable, UFSAliasable {}
+
+public protocol UFSFile: UFSCopyableSubitem, UFSMoveableSubitem, UFSRenameable, UFSRemoveable, UFSTrashable, UFSLinkable, UFSSymbolicLinkable, UFSAliasable {}
 
 extension UFSFile {
     /// Returns wether the contents of the specified files are equal.

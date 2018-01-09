@@ -135,7 +135,7 @@ public struct UFSDirectory: UFSItem, UFSParent, UFSSubitem, UFSCopyable, UFSCopy
     /// - throws: An `Error`.
     ///
     /// - returns: A `UFSDirectory` or throws an `Error`.
-    @discardableResult public static func create(at path: UFSPath, withIntermediateDirectories: Bool = false, attributes: [String: Any]? = nil) throws -> UFSDirectory {
+    @discardableResult public static func create(at path: UFSPath, withIntermediateDirectories: Bool = false, attributes: [FileAttributeKey: Any]? = nil) throws -> UFSDirectory {
         try FileManager.default.createDirectory(at: path.url, withIntermediateDirectories: withIntermediateDirectories, attributes: attributes)
         return UFSDirectory(path)
     }

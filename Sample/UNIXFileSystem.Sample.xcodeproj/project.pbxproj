@@ -13,13 +13,14 @@
 		5CCED94A1EFEAD9B007A648C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCED9491EFEAD9B007A648C /* Assets.xcassets */; };
 		5CCED94D1EFEAD9B007A648C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCED94B1EFEAD9B007A648C /* LaunchScreen.storyboard */; };
 		5CCED9551EFEAE0A007A648C /* UNIXFileSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCED9541EFEAE0A007A648C /* UNIXFileSystem.framework */; };
-		D5A099AEF5E059FBFAD9E459 /* Pods_UNIXFileSystem_UNIXFileSystemSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F480A6103B3601D56483DED /* Pods_UNIXFileSystem_UNIXFileSystemSample.framework */; };
+		F9EA4F6E5483A216D91099C9 /* Pods_UNIXFileSystem_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D2EFC9659426CD5CC2B73 /* Pods_UNIXFileSystem_Sample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C6D2EFC9659426CD5CC2B73 /* Pods_UNIXFileSystem_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UNIXFileSystem_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F480A6103B3601D56483DED /* Pods_UNIXFileSystem_UNIXFileSystemSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UNIXFileSystem_UNIXFileSystemSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51EE8F4BABB8211FA1560CED /* Pods-UNIXFileSystem UNIXFileSystemSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UNIXFileSystem UNIXFileSystemSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UNIXFileSystem UNIXFileSystemSample/Pods-UNIXFileSystem UNIXFileSystemSample.debug.xcconfig"; sourceTree = "<group>"; };
-		5CCED93F1EFEAD9B007A648C /* UNIXFileSystem UNIXFileSystemSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UNIXFileSystem UNIXFileSystemSample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCED93F1EFEAD9B007A648C /* UNIXFileSystem.Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UNIXFileSystem.Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CCED9421EFEAD9B007A648C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CCED9441EFEAD9B007A648C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5CCED9471EFEAD9B007A648C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,6 +28,8 @@
 		5CCED94C1EFEAD9B007A648C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CCED94E1EFEAD9B007A648C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CCED9541EFEAE0A007A648C /* UNIXFileSystem.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UNIXFileSystem.framework; path = "../../../../Library/Developer/Xcode/DerivedData/UNIXFileSystem_UNIXFileSystemSample-cqtnzeughulncmbjidcorbwoztub/Build/Products/Debug-iphonesimulator/UNIXFileSystem/UNIXFileSystem.framework"; sourceTree = "<group>"; };
+		92B09539D0E95C3F12C3C6B0 /* Pods-UNIXFileSystem.Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UNIXFileSystem.Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-UNIXFileSystem.Sample/Pods-UNIXFileSystem.Sample.release.xcconfig"; sourceTree = "<group>"; };
+		B2F6E6253EAA6E99FDF50D49 /* Pods-UNIXFileSystem.Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UNIXFileSystem.Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UNIXFileSystem.Sample/Pods-UNIXFileSystem.Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		B6160BD6554DE33B27227029 /* Pods-UNIXFileSystem UNIXFileSystemSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UNIXFileSystem UNIXFileSystemSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-UNIXFileSystem UNIXFileSystemSample/Pods-UNIXFileSystem UNIXFileSystemSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -36,7 +39,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CCED9551EFEAE0A007A648C /* UNIXFileSystem.framework in Frameworks */,
-				D5A099AEF5E059FBFAD9E459 /* Pods_UNIXFileSystem_UNIXFileSystemSample.framework in Frameworks */,
+				F9EA4F6E5483A216D91099C9 /* Pods_UNIXFileSystem_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +59,7 @@
 		5CCED9401EFEAD9B007A648C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5CCED93F1EFEAD9B007A648C /* UNIXFileSystem UNIXFileSystemSample.app */,
+				5CCED93F1EFEAD9B007A648C /* UNIXFileSystem.Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +82,7 @@
 			children = (
 				5CCED9541EFEAE0A007A648C /* UNIXFileSystem.framework */,
 				3F480A6103B3601D56483DED /* Pods_UNIXFileSystem_UNIXFileSystemSample.framework */,
+				0C6D2EFC9659426CD5CC2B73 /* Pods_UNIXFileSystem_Sample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,6 +92,8 @@
 			children = (
 				51EE8F4BABB8211FA1560CED /* Pods-UNIXFileSystem UNIXFileSystemSample.debug.xcconfig */,
 				B6160BD6554DE33B27227029 /* Pods-UNIXFileSystem UNIXFileSystemSample.release.xcconfig */,
+				B2F6E6253EAA6E99FDF50D49 /* Pods-UNIXFileSystem.Sample.debug.xcconfig */,
+				92B09539D0E95C3F12C3C6B0 /* Pods-UNIXFileSystem.Sample.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -95,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5CCED93E1EFEAD9B007A648C /* UNIXFileSystem UNIXFileSystemSample */ = {
+		5CCED93E1EFEAD9B007A648C /* UNIXFileSystem.Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5CCED9511EFEAD9B007A648C /* Build configuration list for PBXNativeTarget "UNIXFileSystem UNIXFileSystemSample" */;
+			buildConfigurationList = 5CCED9511EFEAD9B007A648C /* Build configuration list for PBXNativeTarget "UNIXFileSystem.Sample" */;
 			buildPhases = (
 				E15AFB736F01D62A44AF3212 /* [CP] Check Pods Manifest.lock */,
 				5CCED93B1EFEAD9B007A648C /* Sources */,
@@ -110,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = "UNIXFileSystem UNIXFileSystemSample";
+			name = UNIXFileSystem.Sample;
 			productName = "UNIXFileSystem UNIXFileSystemSample";
-			productReference = 5CCED93F1EFEAD9B007A648C /* UNIXFileSystem UNIXFileSystemSample.app */;
+			productReference = 5CCED93F1EFEAD9B007A648C /* UNIXFileSystem.Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -122,17 +128,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Meniny;
 				TargetAttributes = {
 					5CCED93E1EFEAD9B007A648C = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 63YL5QDMNS;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 5CCED93A1EFEAD9B007A648C /* Build configuration list for PBXProject "UNIXFileSystem UNIXFileSystemSample" */;
+			buildConfigurationList = 5CCED93A1EFEAD9B007A648C /* Build configuration list for PBXProject "UNIXFileSystem.Sample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -145,7 +152,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5CCED93E1EFEAD9B007A648C /* UNIXFileSystem UNIXFileSystemSample */,
+				5CCED93E1EFEAD9B007A648C /* UNIXFileSystem.Sample */,
 			);
 		};
 /* End PBXProject section */
@@ -170,13 +177,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UNIXFileSystem.Sample/Pods-UNIXFileSystem.Sample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/UNIXFileSystem/UNIXFileSystem.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UNIXFileSystem.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UNIXFileSystem UNIXFileSystemSample/Pods-UNIXFileSystem UNIXFileSystemSample-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UNIXFileSystem.Sample/Pods-UNIXFileSystem.Sample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C1C26B29D74BBFAF8038C59A /* [CP] Copy Pods Resources */ = {
@@ -191,7 +201,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UNIXFileSystem UNIXFileSystemSample/Pods-UNIXFileSystem UNIXFileSystemSample-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UNIXFileSystem.Sample/Pods-UNIXFileSystem.Sample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E15AFB736F01D62A44AF3212 /* [CP] Check Pods Manifest.lock */ = {
@@ -200,13 +210,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UNIXFileSystem.Sample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -253,7 +266,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -261,7 +276,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -284,7 +303,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -304,7 +322,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -312,7 +332,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -329,7 +353,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -340,36 +363,40 @@
 		};
 		5CCED9521EFEAD9B007A648C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51EE8F4BABB8211FA1560CED /* Pods-UNIXFileSystem UNIXFileSystemSample.debug.xcconfig */;
+			baseConfigurationReference = B2F6E6253EAA6E99FDF50D49 /* Pods-UNIXFileSystem.Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 63YL5QDMNS;
 				INFOPLIST_FILE = "UNIXFileSystem UNIXFileSystemSample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.meniny.UNIXFileSystem-UNIXFileSystemSample";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.UNIXFileSystem.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		5CCED9531EFEAD9B007A648C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6160BD6554DE33B27227029 /* Pods-UNIXFileSystem UNIXFileSystemSample.release.xcconfig */;
+			baseConfigurationReference = 92B09539D0E95C3F12C3C6B0 /* Pods-UNIXFileSystem.Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 63YL5QDMNS;
 				INFOPLIST_FILE = "UNIXFileSystem UNIXFileSystemSample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.meniny.UNIXFileSystem-UNIXFileSystemSample";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.UNIXFileSystem.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5CCED93A1EFEAD9B007A648C /* Build configuration list for PBXProject "UNIXFileSystem UNIXFileSystemSample" */ = {
+		5CCED93A1EFEAD9B007A648C /* Build configuration list for PBXProject "UNIXFileSystem.Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5CCED94F1EFEAD9B007A648C /* Debug */,
@@ -378,7 +405,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CCED9511EFEAD9B007A648C /* Build configuration list for PBXNativeTarget "UNIXFileSystem UNIXFileSystemSample" */ = {
+		5CCED9511EFEAD9B007A648C /* Build configuration list for PBXNativeTarget "UNIXFileSystem.Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5CCED9521EFEAD9B007A648C /* Debug */,

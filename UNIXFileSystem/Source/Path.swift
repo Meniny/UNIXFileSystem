@@ -105,7 +105,7 @@ public struct UFSPath: Equatable, RawRepresentable {
     ///
     /// - returns: A `UFSDirectory` or throws an `Error`.
     @discardableResult
-    public func create(withIntermediateDirectories: Bool = false, attributes: [String: Any]? = nil) throws -> UFSDirectory {
+    public func create(withIntermediateDirectories: Bool = false, attributes: [FileAttributeKey: Any]? = nil) throws -> UFSDirectory {
         try FileManager.default.createDirectory(at: url, withIntermediateDirectories: withIntermediateDirectories, attributes: attributes)
         return UFSDirectory(self)
     }

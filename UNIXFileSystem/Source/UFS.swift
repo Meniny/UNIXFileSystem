@@ -105,7 +105,7 @@ public extension UNIXFileSystem {
     ///
     /// - returns: A `UFSDirectory` or throws an `Error`.
     @discardableResult
-    public static func create(folder: String, in directory: UFSDirectory, withIntermediateDirectories: Bool = false, attributes: [String: Any]? = nil) throws -> UFSDirectory {
+    public static func create(folder: String, in directory: UFSDirectory, withIntermediateDirectories: Bool = false, attributes: [FileAttributeKey: Any]? = nil) throws -> UFSDirectory {
         return try UNIXFileSystem.create(folder: folder, at: directory.path, withIntermediateDirectories: withIntermediateDirectories, attributes: attributes)
     }
     
@@ -120,7 +120,7 @@ public extension UNIXFileSystem {
     ///
     /// - returns: A `UFSDirectory` or throws an `Error`.
     @discardableResult
-    public static func create(folder: String, at path: UFSPath, withIntermediateDirectories: Bool = false, attributes: [String: Any]? = nil) throws -> UFSDirectory {
+    public static func create(folder: String, at path: UFSPath, withIntermediateDirectories: Bool = false, attributes: [FileAttributeKey: Any]? = nil) throws -> UFSDirectory {
         if path.exists && path.isDirectory {
             return UFSDirectory(path)
         }

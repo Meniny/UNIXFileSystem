@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UNIXFileSystem'
   s.summary          = 'UNIXFileSystem is an UNIX file system framework for iOS/macOS/tvOS/watchOS platforms.'
-  s.version          = '1.0.0'
+  s.version          = '2.0.0'
   s.homepage         = 'https://github.com/Meniny/UNIXFileSystem'
   s.license          = 'MIT'
   s.author           = { "Meniny" => "Meniny@qq.com" }

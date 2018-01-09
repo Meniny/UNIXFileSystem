@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_UNIXFileSystem_UNIXFileSystemSampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_UNIXFileSystem_UNIXFileSystemSampleVersionString[];
+FOUNDATION_EXPORT double Pods_UNIXFileSystem_SampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_UNIXFileSystem_SampleVersionString[];
 
