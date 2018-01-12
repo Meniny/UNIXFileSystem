@@ -7,36 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		052B9B8EDAD805EBED17F32EDBD82F88 /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DBA434C1FC995108E157703D5F54E2 /* Copyable.swift */; };
-		0C8B6F7D7EF385053AF98A6759A596F9 /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94E1AE0CBA21B594E4CB9C5BB25F87A /* Directory.swift */; };
+		08287B04FCD35DBBCE429256214702B4 /* UFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5E5C5501920CB13B9D0FC4E343B33D /* UFS.swift */; };
+		08579C7BD32279FEAF5539A0AE925583 /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCC6F05D3DC30279E6777BEA29AC6AB /* Parent.swift */; };
+		0ABFA5B92EA8DF9D098A391C795DE0DF /* Moveable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0318964B8F8742BA30BB15FB4F999E /* Moveable.swift */; };
 		10FE898CD4AA3C1DB3EB56C656765797 /* Pods-UNIXFileSystem.Sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7269B2CA454E87A73122D308B990372E /* Pods-UNIXFileSystem.Sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13377F034AB230230999F3E682D52DA8 /* AliasFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D65DF074FDEEB87C636240452A3003C /* AliasFile.swift */; };
-		1502215020DA7854741CB3F7B9B9E1C7 /* Moveable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9F2D66EDE22A34CF181B0607D85808 /* Moveable.swift */; };
-		1850E45412BC098CBB44525828C9A073 /* UNIXFileSystem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 348F3E41C1386208721209AFD0BD666D /* UNIXFileSystem-dummy.m */; };
 		1D5D09B045E59B7BD2B1D661585E0093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2157BB1E371609A1A5BE08AB14D584EA /* Pods-UNIXFileSystem.Sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CFEA90C2D636B6B879F10EBFA3E28D /* Pods-UNIXFileSystem.Sample-dummy.m */; };
-		2605FD115A692D78956FAE2793C8305C /* Linkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1D2DBC9EF6C592BD17DCE2B46F82CA /* Linkable.swift */; };
-		34F41FE9DC4050B0C62C395A2B2AE78A /* Aliasable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F177A40934344D51DCB861CD904C08 /* Aliasable.swift */; };
-		47280468723606F359D20AF5422039C8 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7AA28990096AD9893408CBA585C4D9 /* File.swift */; };
-		4A123E8A509592A5F98FB5EBF73E8447 /* Renameable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33DF6B91E20F0AB0D0CC4CF3C23F03D /* Renameable.swift */; };
-		4F77398D1E676D7BA7F5F6E270B249B1 /* UFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A1A3A7107F9BAE1C9119174CC7233A /* UFS.swift */; };
-		5606C04304F4DAB071D1BBCBDB0250A4 /* PathRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE91DE9B218E0AFC99BC52DCAEE6383F /* PathRepresentable.swift */; };
-		5737CFC61664271B8F9A2F71669525F8 /* FileWrapperConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277BC6E539BF525DF656F7737D8A958A /* FileWrapperConvertible.swift */; };
-		6AB2AAC1400DDB35A48366EB3EE67B31 /* UNIXFileSystem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F6F0741A9D0639BF3CBC18050D1ACD /* UNIXFileSystem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81A61657308AC8A47206755F74AA0768 /* SymbolicLinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B3E014A58D4BEF0F16A4A498020B8F /* SymbolicLinkable.swift */; };
-		84620866A31739201A1C5A5B314A3972 /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FFC4BD91E49624ED42642AE9F99933 /* Volume.swift */; };
-		9885F317C9C0E7D309B950F9E907F8B1 /* SymbolicLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B5760A0B09B34DF95591C36114EF55 /* SymbolicLink.swift */; };
+		2D0AF8D6C811032546AF7AD54692A4AD /* SymbolicLinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3D2789D874C7CEF29FDB9AE30D60CD /* SymbolicLinkable.swift */; };
+		369756D12D8755B0AB371E40D9B02386 /* FileWrapperConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA39B7AEDBA72EF3B181D1C15A5E45FA /* FileWrapperConvertible.swift */; };
+		36A28D6D9892FF100DF8ED28FE7E8DF1 /* MIMEType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C81C8C1B583C2A47AD1E756FE1EBBDD /* MIMEType.swift */; };
+		49BC6C6E851C50C6CD75CD08E97CE853 /* AliasFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6090CD150574BFF28139326B5CBAEC0D /* AliasFile.swift */; };
+		4FFDF30D88B4AC6F0E4011A82208F94B /* Subitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A0DF594661D898F844F23E08A8B3B4 /* Subitem.swift */; };
+		6AB2AAC1400DDB35A48366EB3EE67B31 /* UNIXFileSystem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38DF200B1F1B4AEA9A115A89261D97AA /* UNIXFileSystem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BF5383F7A0E55530D6ADC703F1A4D14 /* MoveableSubitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB2F70384FAEFDE1F330E99CD71EC8 /* MoveableSubitem.swift */; };
+		73A1A9D393A3D34AF8FD43702888A40D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD4EBA7BAB6B16DD46D5F798928089 /* Item.swift */; };
+		7CFCCC17F34096E1E2106801DF38EF6F /* Removeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B24B8F9043A6F792C5D8B6C11235A9 /* Removeable.swift */; };
+		86EE47DE25D9A325CAE51F296207CD42 /* RegularFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6161F6489B64ACE7CC03F264F043436 /* RegularFile.swift */; };
+		916E51F9E0A3E44724C0D840CE4AE4CB /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762020A2747668CA45FDFEB3DE637870 /* Directory.swift */; };
+		943C4A8F25A74B4CF3C681448740725B /* Trashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF66D0B63AE9928A2BDC894F8C9B6 /* Trashable.swift */; };
+		947683ABD91CA7572C8FE51D9E8E7376 /* Aliasable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31B57E55345DF8803FD3F5519ACD667 /* Aliasable.swift */; };
 		A336122A6A66742607370B9DC736FD7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B8A5291FBFDD5356631874C3655899F1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C72C4051313C7D1A9C03167F3FBBA9 /* Item.swift */; };
-		B9FE302830B1ED645CB5470FAB4873B2 /* Trashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3A90FE286B47DFC99145114E2E06A /* Trashable.swift */; };
-		BAC65198DA9D426817F33F5DAB4E0C78 /* MoveableSubitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78343A7956E76993EC6A090C02B1426 /* MoveableSubitem.swift */; };
-		C1EED24EB491D579186C280F49B5A1E7 /* Subitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC5B7B13639C3E0BB599CF04FA1E402 /* Subitem.swift */; };
-		C9B381CCE0D513D8D16305F047C7FDB5 /* CopyableSubitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0E5B38D8F49EDAD1EABC20876C1E2B /* CopyableSubitem.swift */; };
-		DAEF2A211C8725C2F45687AA1911C1D5 /* Removeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D44B1D1D55F3FB009ABF92C671677 /* Removeable.swift */; };
-		DDAA0950F9AA0445B5B77DCE56161718 /* FileHandleConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E0E29B9D1238353A7721F4E7755C4C /* FileHandleConvertible.swift */; };
-		E22FDA1C713A1805FAAB750ADA1686B7 /* RegularFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDE77A76AF1FB47C5C2895BD9529336 /* RegularFile.swift */; };
-		E34AC495D48E760DFD6F86081791265A /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2EDB3454AF9A9E3CED83565EC640D /* Parent.swift */; };
-		F6A1DBF3A348749F00666C076C228E19 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B35A52151407399004FE93BB51536 /* Path.swift */; };
+		BAD4698F4ABB663B79FE61E3E4215B2A /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A2DCC23161F0FA7768944F78A1D147 /* Copyable.swift */; };
+		BB80824AF7E97A84864E21E4D579C5B4 /* FileHandleConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F945593685A481FACD48033232B8947 /* FileHandleConvertible.swift */; };
+		BCF435767DD3EF56608BD02F481374D0 /* Renameable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981792C64E9219C5C5A555449B4EB872 /* Renameable.swift */; };
+		C81B26C77F1481187978C416353ED53D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C398FA415B5DCABE7C8C162E0E3E0F6B /* File.swift */; };
+		CE8D52F72EDB3A52DC4BCFAD2356E4F0 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DBC9A2897C29DCC5CDBF6CF761722 /* Path.swift */; };
+		D0C1A0A39B8A98083B546C4EBF62C6F8 /* Linkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4BC8B50622284FC687B9BBAFB47F5C /* Linkable.swift */; };
+		DD7249E5DB51FCECC1631D1808B5DDCD /* SymbolicLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21DFF5B358E1D4BC4B21C4E20754954 /* SymbolicLink.swift */; };
+		E90C0204307A07DD02D966AF6C6478FD /* UNIXFileSystem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3640A3A190B015E15A378D866AAD1D7 /* UNIXFileSystem-dummy.m */; };
+		F20BFC57E2EC2A69C3169D0C3F085F2B /* CopyableSubitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1622B9F962559E35A98C659BCF61005B /* CopyableSubitem.swift */; };
+		F4C3E02649C88AC82D708C756ECCBF6A /* PathRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7B24245C741A51E82E13EB47A9EB10 /* PathRepresentable.swift */; };
+		F79CE526568A4806A12B542F84993F96 /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEF8717CDF581E210573FB5FBCC8813 /* Volume.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,50 +51,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02545100B46A96D28EA5B909CA3D98EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AB2802117A9743E3C9EDC9B8C3C336B /* UNIXFileSystem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UNIXFileSystem.xcconfig; sourceTree = "<group>"; };
+		04BB2F70384FAEFDE1F330E99CD71EC8 /* MoveableSubitem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoveableSubitem.swift; path = UNIXFileSystem/Source/MoveableSubitem.swift; sourceTree = "<group>"; };
+		0EC7B06FDE1ABF6562AFF3E841F9FBAD /* UNIXFileSystem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UNIXFileSystem.modulemap; sourceTree = "<group>"; };
+		15BD4EBA7BAB6B16DD46D5F798928089 /* Item.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Item.swift; path = UNIXFileSystem/Source/Item.swift; sourceTree = "<group>"; };
+		1622B9F962559E35A98C659BCF61005B /* CopyableSubitem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CopyableSubitem.swift; path = UNIXFileSystem/Source/CopyableSubitem.swift; sourceTree = "<group>"; };
 		1C6BFD8F64BCDA646463FFC0F54B19F2 /* Pods-UNIXFileSystem.Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UNIXFileSystem.Sample.release.xcconfig"; sourceTree = "<group>"; };
-		277BC6E539BF525DF656F7737D8A958A /* FileWrapperConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileWrapperConvertible.swift; path = UNIXFileSystem/Source/FileWrapperConvertible.swift; sourceTree = "<group>"; };
-		29F177A40934344D51DCB861CD904C08 /* Aliasable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Aliasable.swift; path = UNIXFileSystem/Source/Aliasable.swift; sourceTree = "<group>"; };
-		348F3E41C1386208721209AFD0BD666D /* UNIXFileSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UNIXFileSystem-dummy.m"; sourceTree = "<group>"; };
-		359B35A52151407399004FE93BB51536 /* Path.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Path.swift; path = UNIXFileSystem/Source/Path.swift; sourceTree = "<group>"; };
+		28A510487EAA1E420F7BD4E63F2FD819 /* UNIXFileSystem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UNIXFileSystem-prefix.pch"; sourceTree = "<group>"; };
 		35D2396D992E667A1BCE6CD24F7EC134 /* Pods-UNIXFileSystem.Sample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UNIXFileSystem.Sample-resources.sh"; sourceTree = "<group>"; };
-		40B3E014A58D4BEF0F16A4A498020B8F /* SymbolicLinkable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SymbolicLinkable.swift; path = UNIXFileSystem/Source/SymbolicLinkable.swift; sourceTree = "<group>"; };
+		38DF200B1F1B4AEA9A115A89261D97AA /* UNIXFileSystem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UNIXFileSystem-umbrella.h"; sourceTree = "<group>"; };
+		42F69308E518B57FD0E7236AB1D66D59 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45B140C14CB229084139582B8F5C207E /* Pods_UNIXFileSystem_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UNIXFileSystem_Sample.framework; path = "Pods-UNIXFileSystem.Sample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE9850902A2350384038ED609698BDA /* Pods-UNIXFileSystem.Sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UNIXFileSystem.Sample.modulemap"; sourceTree = "<group>"; };
-		4D65DF074FDEEB87C636240452A3003C /* AliasFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AliasFile.swift; path = UNIXFileSystem/Source/AliasFile.swift; sourceTree = "<group>"; };
-		52E0E29B9D1238353A7721F4E7755C4C /* FileHandleConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileHandleConvertible.swift; path = UNIXFileSystem/Source/FileHandleConvertible.swift; sourceTree = "<group>"; };
-		52FFC4BD91E49624ED42642AE9F99933 /* Volume.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Volume.swift; path = UNIXFileSystem/Source/Volume.swift; sourceTree = "<group>"; };
 		5DA2116E557A4EF8D2211449019A17BA /* Pods-UNIXFileSystem.Sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UNIXFileSystem.Sample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F945593685A481FACD48033232B8947 /* FileHandleConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileHandleConvertible.swift; path = UNIXFileSystem/Source/FileHandleConvertible.swift; sourceTree = "<group>"; };
+		6090CD150574BFF28139326B5CBAEC0D /* AliasFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AliasFile.swift; path = UNIXFileSystem/Source/AliasFile.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		709D44B1D1D55F3FB009ABF92C671677 /* Removeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Removeable.swift; path = UNIXFileSystem/Source/Removeable.swift; sourceTree = "<group>"; };
+		6A5E5C5501920CB13B9D0FC4E343B33D /* UFS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UFS.swift; path = UNIXFileSystem/Source/UFS.swift; sourceTree = "<group>"; };
 		7269B2CA454E87A73122D308B990372E /* Pods-UNIXFileSystem.Sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UNIXFileSystem.Sample-umbrella.h"; sourceTree = "<group>"; };
-		74A1A3A7107F9BAE1C9119174CC7233A /* UFS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UFS.swift; path = UNIXFileSystem/Source/UFS.swift; sourceTree = "<group>"; };
-		7FDE77A76AF1FB47C5C2895BD9529336 /* RegularFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegularFile.swift; path = UNIXFileSystem/Source/RegularFile.swift; sourceTree = "<group>"; };
-		80C2EDB3454AF9A9E3CED83565EC640D /* Parent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parent.swift; path = UNIXFileSystem/Source/Parent.swift; sourceTree = "<group>"; };
-		8CA3A90FE286B47DFC99145114E2E06A /* Trashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trashable.swift; path = UNIXFileSystem/Source/Trashable.swift; sourceTree = "<group>"; };
+		762020A2747668CA45FDFEB3DE637870 /* Directory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Directory.swift; path = UNIXFileSystem/Source/Directory.swift; sourceTree = "<group>"; };
+		7C81C8C1B583C2A47AD1E756FE1EBBDD /* MIMEType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MIMEType.swift; path = UNIXFileSystem/Source/MIMEType.swift; sourceTree = "<group>"; };
+		8A0318964B8F8742BA30BB15FB4F999E /* Moveable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moveable.swift; path = UNIXFileSystem/Source/Moveable.swift; sourceTree = "<group>"; };
+		8A3D2789D874C7CEF29FDB9AE30D60CD /* SymbolicLinkable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SymbolicLinkable.swift; path = UNIXFileSystem/Source/SymbolicLinkable.swift; sourceTree = "<group>"; };
+		8CCC6F05D3DC30279E6777BEA29AC6AB /* Parent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parent.swift; path = UNIXFileSystem/Source/Parent.swift; sourceTree = "<group>"; };
 		8D7532A7D9F0EC676FAEBA544A6B38C3 /* Pods-UNIXFileSystem.Sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UNIXFileSystem.Sample-frameworks.sh"; sourceTree = "<group>"; };
-		91DBA434C1FC995108E157703D5F54E2 /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = UNIXFileSystem/Source/Copyable.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		952294DD0BD00B61400412D36621D2B1 /* UNIXFileSystem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UNIXFileSystem-prefix.pch"; sourceTree = "<group>"; };
-		9A91AD209008533B70B4ECEC36C520F3 /* UNIXFileSystem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UNIXFileSystem.modulemap; sourceTree = "<group>"; };
+		981792C64E9219C5C5A555449B4EB872 /* Renameable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Renameable.swift; path = UNIXFileSystem/Source/Renameable.swift; sourceTree = "<group>"; };
 		9B1E46F6E87E7A0B0E5BA0544D9DC7D5 /* Pods-UNIXFileSystem.Sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UNIXFileSystem.Sample-acknowledgements.plist"; sourceTree = "<group>"; };
-		9C1D2DBC9EF6C592BD17DCE2B46F82CA /* Linkable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Linkable.swift; path = UNIXFileSystem/Source/Linkable.swift; sourceTree = "<group>"; };
-		9C9F2D66EDE22A34CF181B0607D85808 /* Moveable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moveable.swift; path = UNIXFileSystem/Source/Moveable.swift; sourceTree = "<group>"; };
 		9FA66CDBA7E805DD020A4D62F35FCEB2 /* Pods-UNIXFileSystem.Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UNIXFileSystem.Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		A3640A3A190B015E15A378D866AAD1D7 /* UNIXFileSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UNIXFileSystem-dummy.m"; sourceTree = "<group>"; };
+		AA39B7AEDBA72EF3B181D1C15A5E45FA /* FileWrapperConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileWrapperConvertible.swift; path = UNIXFileSystem/Source/FileWrapperConvertible.swift; sourceTree = "<group>"; };
+		B04EF66D0B63AE9928A2BDC894F8C9B6 /* Trashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trashable.swift; path = UNIXFileSystem/Source/Trashable.swift; sourceTree = "<group>"; };
+		B21DFF5B358E1D4BC4B21C4E20754954 /* SymbolicLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SymbolicLink.swift; path = UNIXFileSystem/Source/SymbolicLink.swift; sourceTree = "<group>"; };
 		B503C2DD879019B8CCB38B20F26F3BA6 /* UNIXFileSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UNIXFileSystem.framework; path = UNIXFileSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B78343A7956E76993EC6A090C02B1426 /* MoveableSubitem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoveableSubitem.swift; path = UNIXFileSystem/Source/MoveableSubitem.swift; sourceTree = "<group>"; };
-		B94E1AE0CBA21B594E4CB9C5BB25F87A /* Directory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Directory.swift; path = UNIXFileSystem/Source/Directory.swift; sourceTree = "<group>"; };
+		B8A2DCC23161F0FA7768944F78A1D147 /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = UNIXFileSystem/Source/Copyable.swift; sourceTree = "<group>"; };
+		BD4BC8B50622284FC687B9BBAFB47F5C /* Linkable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Linkable.swift; path = UNIXFileSystem/Source/Linkable.swift; sourceTree = "<group>"; };
 		C0CFEA90C2D636B6B879F10EBFA3E28D /* Pods-UNIXFileSystem.Sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UNIXFileSystem.Sample-dummy.m"; sourceTree = "<group>"; };
-		C33DF6B91E20F0AB0D0CC4CF3C23F03D /* Renameable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Renameable.swift; path = UNIXFileSystem/Source/Renameable.swift; sourceTree = "<group>"; };
-		C4B5760A0B09B34DF95591C36114EF55 /* SymbolicLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SymbolicLink.swift; path = UNIXFileSystem/Source/SymbolicLink.swift; sourceTree = "<group>"; };
-		C9C72C4051313C7D1A9C03167F3FBBA9 /* Item.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Item.swift; path = UNIXFileSystem/Source/Item.swift; sourceTree = "<group>"; };
-		CA0E5B38D8F49EDAD1EABC20876C1E2B /* CopyableSubitem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CopyableSubitem.swift; path = UNIXFileSystem/Source/CopyableSubitem.swift; sourceTree = "<group>"; };
-		DAC5B7B13639C3E0BB599CF04FA1E402 /* Subitem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subitem.swift; path = UNIXFileSystem/Source/Subitem.swift; sourceTree = "<group>"; };
-		DE91DE9B218E0AFC99BC52DCAEE6383F /* PathRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathRepresentable.swift; path = UNIXFileSystem/Source/PathRepresentable.swift; sourceTree = "<group>"; };
-		E8F6F0741A9D0639BF3CBC18050D1ACD /* UNIXFileSystem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UNIXFileSystem-umbrella.h"; sourceTree = "<group>"; };
+		C31B57E55345DF8803FD3F5519ACD667 /* Aliasable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Aliasable.swift; path = UNIXFileSystem/Source/Aliasable.swift; sourceTree = "<group>"; };
+		C398FA415B5DCABE7C8C162E0E3E0F6B /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = UNIXFileSystem/Source/File.swift; sourceTree = "<group>"; };
+		C4A0DF594661D898F844F23E08A8B3B4 /* Subitem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subitem.swift; path = UNIXFileSystem/Source/Subitem.swift; sourceTree = "<group>"; };
+		C4A18BC9034F7A2D94CD05EE08A7BB97 /* UNIXFileSystem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UNIXFileSystem.xcconfig; sourceTree = "<group>"; };
+		C6161F6489B64ACE7CC03F264F043436 /* RegularFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegularFile.swift; path = UNIXFileSystem/Source/RegularFile.swift; sourceTree = "<group>"; };
+		CFEF8717CDF581E210573FB5FBCC8813 /* Volume.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Volume.swift; path = UNIXFileSystem/Source/Volume.swift; sourceTree = "<group>"; };
+		D35DBC9A2897C29DCC5CDBF6CF761722 /* Path.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Path.swift; path = UNIXFileSystem/Source/Path.swift; sourceTree = "<group>"; };
 		F1710CA3DBD63EF7517BBA2A659B7454 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC7AA28990096AD9893408CBA585C4D9 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = UNIXFileSystem/Source/File.swift; sourceTree = "<group>"; };
+		F3B24B8F9043A6F792C5D8B6C11235A9 /* Removeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Removeable.swift; path = UNIXFileSystem/Source/Removeable.swift; sourceTree = "<group>"; };
+		FD7B24245C741A51E82E13EB47A9EB10 /* PathRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathRepresentable.swift; path = UNIXFileSystem/Source/PathRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12957B46E1D5015015D5156436257840 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42F69308E518B57FD0E7236AB1D66D59 /* Info.plist */,
+				0EC7B06FDE1ABF6562AFF3E841F9FBAD /* UNIXFileSystem.modulemap */,
+				C4A18BC9034F7A2D94CD05EE08A7BB97 /* UNIXFileSystem.xcconfig */,
+				A3640A3A190B015E15A378D866AAD1D7 /* UNIXFileSystem-dummy.m */,
+				28A510487EAA1E420F7BD4E63F2FD819 /* UNIXFileSystem-prefix.pch */,
+				38DF200B1F1B4AEA9A115A89261D97AA /* UNIXFileSystem-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Sample/Pods/Target Support Files/UNIXFileSystem";
+			sourceTree = "<group>";
+		};
 		302EEEA499B898325CD65FEDDB9C299A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,19 +140,45 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		45FB7FEE8C7CF6114B04093D5B198141 /* Development Pods */ = {
+		4CB4D53145C7B1DB541B9F67AD760210 /* UNIXFileSystem */ = {
 			isa = PBXGroup;
 			children = (
-				94B4194E15FA193538B315228A50BBCE /* UNIXFileSystem */,
+				C31B57E55345DF8803FD3F5519ACD667 /* Aliasable.swift */,
+				6090CD150574BFF28139326B5CBAEC0D /* AliasFile.swift */,
+				B8A2DCC23161F0FA7768944F78A1D147 /* Copyable.swift */,
+				1622B9F962559E35A98C659BCF61005B /* CopyableSubitem.swift */,
+				762020A2747668CA45FDFEB3DE637870 /* Directory.swift */,
+				C398FA415B5DCABE7C8C162E0E3E0F6B /* File.swift */,
+				5F945593685A481FACD48033232B8947 /* FileHandleConvertible.swift */,
+				AA39B7AEDBA72EF3B181D1C15A5E45FA /* FileWrapperConvertible.swift */,
+				15BD4EBA7BAB6B16DD46D5F798928089 /* Item.swift */,
+				BD4BC8B50622284FC687B9BBAFB47F5C /* Linkable.swift */,
+				7C81C8C1B583C2A47AD1E756FE1EBBDD /* MIMEType.swift */,
+				8A0318964B8F8742BA30BB15FB4F999E /* Moveable.swift */,
+				04BB2F70384FAEFDE1F330E99CD71EC8 /* MoveableSubitem.swift */,
+				8CCC6F05D3DC30279E6777BEA29AC6AB /* Parent.swift */,
+				D35DBC9A2897C29DCC5CDBF6CF761722 /* Path.swift */,
+				FD7B24245C741A51E82E13EB47A9EB10 /* PathRepresentable.swift */,
+				C6161F6489B64ACE7CC03F264F043436 /* RegularFile.swift */,
+				F3B24B8F9043A6F792C5D8B6C11235A9 /* Removeable.swift */,
+				981792C64E9219C5C5A555449B4EB872 /* Renameable.swift */,
+				C4A0DF594661D898F844F23E08A8B3B4 /* Subitem.swift */,
+				B21DFF5B358E1D4BC4B21C4E20754954 /* SymbolicLink.swift */,
+				8A3D2789D874C7CEF29FDB9AE30D60CD /* SymbolicLinkable.swift */,
+				B04EF66D0B63AE9928A2BDC894F8C9B6 /* Trashable.swift */,
+				6A5E5C5501920CB13B9D0FC4E343B33D /* UFS.swift */,
+				CFEF8717CDF581E210573FB5FBCC8813 /* Volume.swift */,
+				12957B46E1D5015015D5156436257840 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = UNIXFileSystem;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				45FB7FEE8C7CF6114B04093D5B198141 /* Development Pods */,
+				F9076740EA42B0391BCEC92E21746232 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				82E68FF62470F39BE692CC46D59F4A87 /* Products */,
 				302EEEA499B898325CD65FEDDB9C299A /* Targets Support Files */,
@@ -150,39 +192,6 @@
 				B503C2DD879019B8CCB38B20F26F3BA6 /* UNIXFileSystem.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		94B4194E15FA193538B315228A50BBCE /* UNIXFileSystem */ = {
-			isa = PBXGroup;
-			children = (
-				29F177A40934344D51DCB861CD904C08 /* Aliasable.swift */,
-				4D65DF074FDEEB87C636240452A3003C /* AliasFile.swift */,
-				91DBA434C1FC995108E157703D5F54E2 /* Copyable.swift */,
-				CA0E5B38D8F49EDAD1EABC20876C1E2B /* CopyableSubitem.swift */,
-				B94E1AE0CBA21B594E4CB9C5BB25F87A /* Directory.swift */,
-				FC7AA28990096AD9893408CBA585C4D9 /* File.swift */,
-				52E0E29B9D1238353A7721F4E7755C4C /* FileHandleConvertible.swift */,
-				277BC6E539BF525DF656F7737D8A958A /* FileWrapperConvertible.swift */,
-				C9C72C4051313C7D1A9C03167F3FBBA9 /* Item.swift */,
-				9C1D2DBC9EF6C592BD17DCE2B46F82CA /* Linkable.swift */,
-				9C9F2D66EDE22A34CF181B0607D85808 /* Moveable.swift */,
-				B78343A7956E76993EC6A090C02B1426 /* MoveableSubitem.swift */,
-				80C2EDB3454AF9A9E3CED83565EC640D /* Parent.swift */,
-				359B35A52151407399004FE93BB51536 /* Path.swift */,
-				DE91DE9B218E0AFC99BC52DCAEE6383F /* PathRepresentable.swift */,
-				7FDE77A76AF1FB47C5C2895BD9529336 /* RegularFile.swift */,
-				709D44B1D1D55F3FB009ABF92C671677 /* Removeable.swift */,
-				C33DF6B91E20F0AB0D0CC4CF3C23F03D /* Renameable.swift */,
-				DAC5B7B13639C3E0BB599CF04FA1E402 /* Subitem.swift */,
-				C4B5760A0B09B34DF95591C36114EF55 /* SymbolicLink.swift */,
-				40B3E014A58D4BEF0F16A4A498020B8F /* SymbolicLinkable.swift */,
-				8CA3A90FE286B47DFC99145114E2E06A /* Trashable.swift */,
-				74A1A3A7107F9BAE1C9119174CC7233A /* UFS.swift */,
-				52FFC4BD91E49624ED42642AE9F99933 /* Volume.swift */,
-				FEC472F4FD2B0331CE37832890BA3CF9 /* Support Files */,
-			);
-			name = UNIXFileSystem;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -219,18 +228,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FEC472F4FD2B0331CE37832890BA3CF9 /* Support Files */ = {
+		F9076740EA42B0391BCEC92E21746232 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				02545100B46A96D28EA5B909CA3D98EB /* Info.plist */,
-				9A91AD209008533B70B4ECEC36C520F3 /* UNIXFileSystem.modulemap */,
-				0AB2802117A9743E3C9EDC9B8C3C336B /* UNIXFileSystem.xcconfig */,
-				348F3E41C1386208721209AFD0BD666D /* UNIXFileSystem-dummy.m */,
-				952294DD0BD00B61400412D36621D2B1 /* UNIXFileSystem-prefix.pch */,
-				E8F6F0741A9D0639BF3CBC18050D1ACD /* UNIXFileSystem-umbrella.h */,
+				4CB4D53145C7B1DB541B9F67AD760210 /* UNIXFileSystem */,
 			);
-			name = "Support Files";
-			path = "Sample/Pods/Target Support Files/UNIXFileSystem";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71717A47FB08E6557E678DB008DDA63C /* Build configuration list for PBXNativeTarget "UNIXFileSystem" */;
 			buildPhases = (
-				8C909879A2EA8AD17ACFB33DC1222AF1 /* Sources */,
+				B5C56060A8869CA93C0CAE44AC26872E /* Sources */,
 				6DA24E8365B5789742A30202BE39894C /* Frameworks */,
 				8AC5AE5221309CE6F08DC7D6701274C2 /* Headers */,
 			);
@@ -326,35 +329,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C909879A2EA8AD17ACFB33DC1222AF1 /* Sources */ = {
+		B5C56060A8869CA93C0CAE44AC26872E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34F41FE9DC4050B0C62C395A2B2AE78A /* Aliasable.swift in Sources */,
-				13377F034AB230230999F3E682D52DA8 /* AliasFile.swift in Sources */,
-				052B9B8EDAD805EBED17F32EDBD82F88 /* Copyable.swift in Sources */,
-				C9B381CCE0D513D8D16305F047C7FDB5 /* CopyableSubitem.swift in Sources */,
-				0C8B6F7D7EF385053AF98A6759A596F9 /* Directory.swift in Sources */,
-				47280468723606F359D20AF5422039C8 /* File.swift in Sources */,
-				DDAA0950F9AA0445B5B77DCE56161718 /* FileHandleConvertible.swift in Sources */,
-				5737CFC61664271B8F9A2F71669525F8 /* FileWrapperConvertible.swift in Sources */,
-				B8A5291FBFDD5356631874C3655899F1 /* Item.swift in Sources */,
-				2605FD115A692D78956FAE2793C8305C /* Linkable.swift in Sources */,
-				1502215020DA7854741CB3F7B9B9E1C7 /* Moveable.swift in Sources */,
-				BAC65198DA9D426817F33F5DAB4E0C78 /* MoveableSubitem.swift in Sources */,
-				E34AC495D48E760DFD6F86081791265A /* Parent.swift in Sources */,
-				F6A1DBF3A348749F00666C076C228E19 /* Path.swift in Sources */,
-				5606C04304F4DAB071D1BBCBDB0250A4 /* PathRepresentable.swift in Sources */,
-				E22FDA1C713A1805FAAB750ADA1686B7 /* RegularFile.swift in Sources */,
-				DAEF2A211C8725C2F45687AA1911C1D5 /* Removeable.swift in Sources */,
-				4A123E8A509592A5F98FB5EBF73E8447 /* Renameable.swift in Sources */,
-				C1EED24EB491D579186C280F49B5A1E7 /* Subitem.swift in Sources */,
-				9885F317C9C0E7D309B950F9E907F8B1 /* SymbolicLink.swift in Sources */,
-				81A61657308AC8A47206755F74AA0768 /* SymbolicLinkable.swift in Sources */,
-				B9FE302830B1ED645CB5470FAB4873B2 /* Trashable.swift in Sources */,
-				4F77398D1E676D7BA7F5F6E270B249B1 /* UFS.swift in Sources */,
-				1850E45412BC098CBB44525828C9A073 /* UNIXFileSystem-dummy.m in Sources */,
-				84620866A31739201A1C5A5B314A3972 /* Volume.swift in Sources */,
+				947683ABD91CA7572C8FE51D9E8E7376 /* Aliasable.swift in Sources */,
+				49BC6C6E851C50C6CD75CD08E97CE853 /* AliasFile.swift in Sources */,
+				BAD4698F4ABB663B79FE61E3E4215B2A /* Copyable.swift in Sources */,
+				F20BFC57E2EC2A69C3169D0C3F085F2B /* CopyableSubitem.swift in Sources */,
+				916E51F9E0A3E44724C0D840CE4AE4CB /* Directory.swift in Sources */,
+				C81B26C77F1481187978C416353ED53D /* File.swift in Sources */,
+				BB80824AF7E97A84864E21E4D579C5B4 /* FileHandleConvertible.swift in Sources */,
+				369756D12D8755B0AB371E40D9B02386 /* FileWrapperConvertible.swift in Sources */,
+				73A1A9D393A3D34AF8FD43702888A40D /* Item.swift in Sources */,
+				D0C1A0A39B8A98083B546C4EBF62C6F8 /* Linkable.swift in Sources */,
+				36A28D6D9892FF100DF8ED28FE7E8DF1 /* MIMEType.swift in Sources */,
+				0ABFA5B92EA8DF9D098A391C795DE0DF /* Moveable.swift in Sources */,
+				6BF5383F7A0E55530D6ADC703F1A4D14 /* MoveableSubitem.swift in Sources */,
+				08579C7BD32279FEAF5539A0AE925583 /* Parent.swift in Sources */,
+				CE8D52F72EDB3A52DC4BCFAD2356E4F0 /* Path.swift in Sources */,
+				F4C3E02649C88AC82D708C756ECCBF6A /* PathRepresentable.swift in Sources */,
+				86EE47DE25D9A325CAE51F296207CD42 /* RegularFile.swift in Sources */,
+				7CFCCC17F34096E1E2106801DF38EF6F /* Removeable.swift in Sources */,
+				BCF435767DD3EF56608BD02F481374D0 /* Renameable.swift in Sources */,
+				4FFDF30D88B4AC6F0E4011A82208F94B /* Subitem.swift in Sources */,
+				DD7249E5DB51FCECC1631D1808B5DDCD /* SymbolicLink.swift in Sources */,
+				2D0AF8D6C811032546AF7AD54692A4AD /* SymbolicLinkable.swift in Sources */,
+				943C4A8F25A74B4CF3C681448740725B /* Trashable.swift in Sources */,
+				08287B04FCD35DBBCE429256214702B4 /* UFS.swift in Sources */,
+				E90C0204307A07DD02D966AF6C6478FD /* UNIXFileSystem-dummy.m in Sources */,
+				F79CE526568A4806A12B542F84993F96 /* Volume.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +410,7 @@
 		};
 		8285F3741973428BCF529A3F0F35F436 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AB2802117A9743E3C9EDC9B8C3C336B /* UNIXFileSystem.xcconfig */;
+			baseConfigurationReference = C4A18BC9034F7A2D94CD05EE08A7BB97 /* UNIXFileSystem.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -527,7 +531,7 @@
 		};
 		B85B173AC5C7BD42EBA4A40615D72C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AB2802117A9743E3C9EDC9B8C3C336B /* UNIXFileSystem.xcconfig */;
+			baseConfigurationReference = C4A18BC9034F7A2D94CD05EE08A7BB97 /* UNIXFileSystem.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

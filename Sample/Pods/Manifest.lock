@@ -1,5 +1,5 @@
 PODS:
-  - UNIXFileSystem (2.0.0)
+  - UNIXFileSystem (2.1.0)
 
 DEPENDENCIES:
   - UNIXFileSystem (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  UNIXFileSystem: a7d84f3201197ce2d3a382402baad18c9fef0bdb
+  UNIXFileSystem: 9a1a7d767f9cfbaa5e43f434e7a14bc914134573
 
 PODFILE CHECKSUM: 9c006d6dd046a9ae6067d9f73e5e8d3869d8fd45
 
