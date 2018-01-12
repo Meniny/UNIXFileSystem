@@ -1,7 +1,7 @@
 {
   "name": "UNIXFileSystem",
   "summary": "UNIXFileSystem is an UNIX file system framework for iOS/macOS/tvOS/watchOS platforms.",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "homepage": "https://github.com/Meniny/UNIXFileSystem",
   "license": "MIT",
   "authors": {
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/Meniny/UNIXFileSystem.git",
-    "tag": "2.1.0"
+    "tag": "2.1.1"
   },
   "social_media_url": "https://meniny.cn/",
   "platforms": {
