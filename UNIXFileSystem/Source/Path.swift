@@ -181,28 +181,135 @@ extension UFSPath: ExpressibleByStringLiteral {
     }
 }
 
+public enum UFSResouceType {
+    case regularFile
+    case aliasFile
+    case symbolickLink
+    case directory
+    case volume
+    
+    public var resourceKey: URLResourceKey {
+        switch self {
+        case .regularFile:
+            return .isRegularFileKey
+        case .aliasFile:
+            return .isAliasFileKey
+        case .symbolickLink:
+            return .isSymbolicLinkKey
+        case .directory:
+            return .isDirectoryKey
+        case .volume:
+            return .isVolumeKey
+        }
+    }
+}
+
+public extension URLResourceValues {
+    public func `is`(a type: UFSResouceType) -> Bool? {
+        switch type {
+        case .regularFile:
+            return self.isRegularFile
+        case .aliasFile:
+            return self.isAliasFile
+        case .symbolickLink:
+            return self.isSymbolicLink
+        case .directory:
+            return self.isDirectory
+        case .volume:
+            return self.isVolume
+        }
+    }
+}
+
 extension UFSPath {
+    
+    public func `is`(a type: UFSResouceType) -> Bool {
+        let resourceValues = try? url.resourceValues(forKeys: [type.resourceKey])
+        
+        if let result = resourceValues?.is(a: type) {
+            return result
+        }
+        return false
+    }
+    
     /// Returns the item located at self or nil if one does not exist.
     public var item: UFSItem? {
-        do {
-            let resourceValues = try url.resourceValues(forKeys: [.isDirectoryKey, .isVolumeKey, .isSymbolicLinkKey, .isAliasFileKey, .isRegularFileKey])
-            
-            if let isVolume = resourceValues.isVolume, isVolume {
-                return UFSVolume(self)
-            } else if let isDirectory = resourceValues.isDirectory, isDirectory {
-                return UFSDirectory(self)
-            } else if let isSymbolicLink = resourceValues.isSymbolicLink, isSymbolicLink {
-                return UFSSymbolicLink(self)
-            } else if let isAliasFile = resourceValues.isAliasFile, isAliasFile {
-                return UFSAliasFile(self)
-            } else if let isRegularFile = resourceValues.isRegularFile, isRegularFile {
-                return UFSRegularFile(self)
-            } else {
-                return nil
-            }
-        } catch _ {
-            return nil
+        if let volume = volumeItem {
+            return volume
         }
+        if let directory = directoryItem {
+            return directory
+        }
+        if let symbolicLink = symbolickLinkItem {
+            return symbolicLink
+        }
+        if let aliasFile = aliasFileItem {
+            return aliasFile
+        }
+        if let regularFile = regularFileItem {
+            return regularFile
+        }
+        return nil
+    }
+    
+    public var isRegularFilePath: Bool {
+        return self.is(a: .regularFile)
+    }
+    
+    /// Returns the item located at self or nil if one does not exist.
+    public var regularFileItem: UFSRegularFile? {
+        if self.isRegularFilePath {
+            return UFSRegularFile(self)
+        }
+        return nil
+    }
+    
+    public var isSymbolickLinkPath: Bool {
+        return self.is(a: .symbolickLink)
+    }
+    
+    /// Returns the item located at self or nil if one does not exist.
+    public var symbolickLinkItem: UFSSymbolicLink? {
+        if self.isSymbolickLinkPath {
+            return UFSSymbolicLink(self)
+        }
+        return nil
+    }
+    
+    public var isAliasFilePath: Bool {
+        return self.is(a: .aliasFile)
+    }
+    
+    /// Returns the item located at self or nil if one does not exist.
+    public var aliasFileItem: UFSAliasFile? {
+        if self.isAliasFilePath {
+            return UFSAliasFile(self)
+        }
+        return nil
+    }
+    
+    public var isDirectoryPath: Bool {
+        return self.is(a: .directory)
+    }
+    
+    /// Returns the item located at self or nil if one does not exist.
+    public var directoryItem: UFSDirectory? {
+        if self.isDirectoryPath {
+            return UFSDirectory(self)
+        }
+        return nil
+    }
+    
+    public var isVolumePath: Bool {
+        return self.is(a: .volume)
+    }
+    
+    /// Returns the item located at self or nil if one does not exist.
+    public var volumeItem: UFSVolume? {
+        if self.isVolumePath {
+            return UFSVolume(self)
+        }
+        return nil
     }
 }
 

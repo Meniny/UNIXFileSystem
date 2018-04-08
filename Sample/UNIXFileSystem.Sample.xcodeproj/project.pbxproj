@@ -28,6 +28,11 @@
 		5CCED94C1EFEAD9B007A648C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CCED94E1EFEAD9B007A648C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CCED9541EFEAE0A007A648C /* UNIXFileSystem.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UNIXFileSystem.framework; path = "../../../../Library/Developer/Xcode/DerivedData/UNIXFileSystem_UNIXFileSystemSample-cqtnzeughulncmbjidcorbwoztub/Build/Products/Debug-iphonesimulator/UNIXFileSystem/UNIXFileSystem.framework"; sourceTree = "<group>"; };
+		64A130732079D43300AED761 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
+		64A130742079D43300AED761 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		64A130752079D43300AED761 /* UNIXFileSystem.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = UNIXFileSystem.podspec; path = ../UNIXFileSystem.podspec; sourceTree = "<group>"; };
+		64A130762079D43300AED761 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		64A130772079D43300AED761 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; name = ".swift-version"; path = "../.swift-version"; sourceTree = "<group>"; };
 		92B09539D0E95C3F12C3C6B0 /* Pods-UNIXFileSystem.Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UNIXFileSystem.Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-UNIXFileSystem.Sample/Pods-UNIXFileSystem.Sample.release.xcconfig"; sourceTree = "<group>"; };
 		B2F6E6253EAA6E99FDF50D49 /* Pods-UNIXFileSystem.Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UNIXFileSystem.Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UNIXFileSystem.Sample/Pods-UNIXFileSystem.Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		B6160BD6554DE33B27227029 /* Pods-UNIXFileSystem UNIXFileSystemSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UNIXFileSystem UNIXFileSystemSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-UNIXFileSystem UNIXFileSystemSample/Pods-UNIXFileSystem UNIXFileSystemSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		5CCED9361EFEAD9B007A648C = {
 			isa = PBXGroup;
 			children = (
+				64A130742079D43300AED761 /* .gitignore */,
+				64A130772079D43300AED761 /* .swift-version */,
+				64A130732079D43300AED761 /* LICENSE.md */,
+				64A130762079D43300AED761 /* README.md */,
+				64A130752079D43300AED761 /* UNIXFileSystem.podspec */,
 				5CCED9411EFEAD9B007A648C /* UNIXFileSystem UNIXFileSystemSample */,
 				5CCED9401EFEAD9B007A648C /* Products */,
 				D2C86B83D6A0372A44C38A9A /* Pods */,
@@ -128,7 +138,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Meniny;
 				TargetAttributes = {
 					5CCED93E1EFEAD9B007A648C = {
@@ -270,6 +280,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -277,6 +288,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -326,6 +338,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -333,6 +346,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

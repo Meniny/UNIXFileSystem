@@ -7,37 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08287B04FCD35DBBCE429256214702B4 /* UFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5E5C5501920CB13B9D0FC4E343B33D /* UFS.swift */; };
-		08579C7BD32279FEAF5539A0AE925583 /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCC6F05D3DC30279E6777BEA29AC6AB /* Parent.swift */; };
-		0ABFA5B92EA8DF9D098A391C795DE0DF /* Moveable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0318964B8F8742BA30BB15FB4F999E /* Moveable.swift */; };
-		10FE898CD4AA3C1DB3EB56C656765797 /* Pods-UNIXFileSystem.Sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7269B2CA454E87A73122D308B990372E /* Pods-UNIXFileSystem.Sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08287B04FCD35DBBCE429256214702B4 /* UFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F96D360BCD928D3888FAC45CB5E67E /* UFS.swift */; };
+		08579C7BD32279FEAF5539A0AE925583 /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD50883DA8FE0D63DA1B7CF0CF061BF /* Parent.swift */; };
+		0ABFA5B92EA8DF9D098A391C795DE0DF /* Moveable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF25868F99F232FD62DC59FE2BBD502 /* Moveable.swift */; };
+		10FE898CD4AA3C1DB3EB56C656765797 /* Pods-UNIXFileSystem.Sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 026F70C99258DD619DAA029EE521FB6B /* Pods-UNIXFileSystem.Sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D5D09B045E59B7BD2B1D661585E0093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2157BB1E371609A1A5BE08AB14D584EA /* Pods-UNIXFileSystem.Sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CFEA90C2D636B6B879F10EBFA3E28D /* Pods-UNIXFileSystem.Sample-dummy.m */; };
-		2D0AF8D6C811032546AF7AD54692A4AD /* SymbolicLinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3D2789D874C7CEF29FDB9AE30D60CD /* SymbolicLinkable.swift */; };
-		369756D12D8755B0AB371E40D9B02386 /* FileWrapperConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA39B7AEDBA72EF3B181D1C15A5E45FA /* FileWrapperConvertible.swift */; };
-		36A28D6D9892FF100DF8ED28FE7E8DF1 /* MIMEType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C81C8C1B583C2A47AD1E756FE1EBBDD /* MIMEType.swift */; };
-		49BC6C6E851C50C6CD75CD08E97CE853 /* AliasFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6090CD150574BFF28139326B5CBAEC0D /* AliasFile.swift */; };
-		4FFDF30D88B4AC6F0E4011A82208F94B /* Subitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A0DF594661D898F844F23E08A8B3B4 /* Subitem.swift */; };
-		6AB2AAC1400DDB35A48366EB3EE67B31 /* UNIXFileSystem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38DF200B1F1B4AEA9A115A89261D97AA /* UNIXFileSystem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BF5383F7A0E55530D6ADC703F1A4D14 /* MoveableSubitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB2F70384FAEFDE1F330E99CD71EC8 /* MoveableSubitem.swift */; };
-		73A1A9D393A3D34AF8FD43702888A40D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD4EBA7BAB6B16DD46D5F798928089 /* Item.swift */; };
-		7CFCCC17F34096E1E2106801DF38EF6F /* Removeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B24B8F9043A6F792C5D8B6C11235A9 /* Removeable.swift */; };
-		86EE47DE25D9A325CAE51F296207CD42 /* RegularFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6161F6489B64ACE7CC03F264F043436 /* RegularFile.swift */; };
-		916E51F9E0A3E44724C0D840CE4AE4CB /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762020A2747668CA45FDFEB3DE637870 /* Directory.swift */; };
-		943C4A8F25A74B4CF3C681448740725B /* Trashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF66D0B63AE9928A2BDC894F8C9B6 /* Trashable.swift */; };
-		947683ABD91CA7572C8FE51D9E8E7376 /* Aliasable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31B57E55345DF8803FD3F5519ACD667 /* Aliasable.swift */; };
+		2157BB1E371609A1A5BE08AB14D584EA /* Pods-UNIXFileSystem.Sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF105F5363B8D32DB52D9AE99A5778D9 /* Pods-UNIXFileSystem.Sample-dummy.m */; };
+		2D0AF8D6C811032546AF7AD54692A4AD /* SymbolicLinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03A59173035B8A5C0963323E12E4796 /* SymbolicLinkable.swift */; };
+		369756D12D8755B0AB371E40D9B02386 /* FileWrapperConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E617017544ADB6FA439F8506A5238BF /* FileWrapperConvertible.swift */; };
+		36A28D6D9892FF100DF8ED28FE7E8DF1 /* MIMEType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4225B9DE1C6AAD007FE5FAF963B7554 /* MIMEType.swift */; };
+		49BC6C6E851C50C6CD75CD08E97CE853 /* AliasFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5E2BBBE7F41176B3B7AB03E7082520 /* AliasFile.swift */; };
+		4FFDF30D88B4AC6F0E4011A82208F94B /* Subitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50901FE8A9F4DD6549FE53CCFB3A812 /* Subitem.swift */; };
+		6AB2AAC1400DDB35A48366EB3EE67B31 /* UNIXFileSystem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFE2C616A70767892EA79ED1BE6E80A /* UNIXFileSystem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BF5383F7A0E55530D6ADC703F1A4D14 /* MoveableSubitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12603F92E2AACAD670014D82EE49022 /* MoveableSubitem.swift */; };
+		73A1A9D393A3D34AF8FD43702888A40D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F117F02C8AE802FAFA6C9F5CC6334BE8 /* Item.swift */; };
+		7CFCCC17F34096E1E2106801DF38EF6F /* Removeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360B7FFF70581F99FC481A09D1CF6F2 /* Removeable.swift */; };
+		86EE47DE25D9A325CAE51F296207CD42 /* RegularFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCBF9A97482021257597133CAC267C /* RegularFile.swift */; };
+		916E51F9E0A3E44724C0D840CE4AE4CB /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5264415D3E01EAF26BF92B4E7EB99 /* Directory.swift */; };
+		943C4A8F25A74B4CF3C681448740725B /* Trashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD37D025658262C5753391AB0450FB53 /* Trashable.swift */; };
+		947683ABD91CA7572C8FE51D9E8E7376 /* Aliasable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134E7B289749E457FB6083184CA50DE /* Aliasable.swift */; };
 		A336122A6A66742607370B9DC736FD7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BAD4698F4ABB663B79FE61E3E4215B2A /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A2DCC23161F0FA7768944F78A1D147 /* Copyable.swift */; };
-		BB80824AF7E97A84864E21E4D579C5B4 /* FileHandleConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F945593685A481FACD48033232B8947 /* FileHandleConvertible.swift */; };
-		BCF435767DD3EF56608BD02F481374D0 /* Renameable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981792C64E9219C5C5A555449B4EB872 /* Renameable.swift */; };
-		C81B26C77F1481187978C416353ED53D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C398FA415B5DCABE7C8C162E0E3E0F6B /* File.swift */; };
-		CE8D52F72EDB3A52DC4BCFAD2356E4F0 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DBC9A2897C29DCC5CDBF6CF761722 /* Path.swift */; };
-		D0C1A0A39B8A98083B546C4EBF62C6F8 /* Linkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4BC8B50622284FC687B9BBAFB47F5C /* Linkable.swift */; };
-		DD7249E5DB51FCECC1631D1808B5DDCD /* SymbolicLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21DFF5B358E1D4BC4B21C4E20754954 /* SymbolicLink.swift */; };
-		E90C0204307A07DD02D966AF6C6478FD /* UNIXFileSystem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3640A3A190B015E15A378D866AAD1D7 /* UNIXFileSystem-dummy.m */; };
-		F20BFC57E2EC2A69C3169D0C3F085F2B /* CopyableSubitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1622B9F962559E35A98C659BCF61005B /* CopyableSubitem.swift */; };
-		F4C3E02649C88AC82D708C756ECCBF6A /* PathRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7B24245C741A51E82E13EB47A9EB10 /* PathRepresentable.swift */; };
-		F79CE526568A4806A12B542F84993F96 /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEF8717CDF581E210573FB5FBCC8813 /* Volume.swift */; };
+		BAD4698F4ABB663B79FE61E3E4215B2A /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F9FEFCA04D662DA6E329CF47A4C06 /* Copyable.swift */; };
+		BB80824AF7E97A84864E21E4D579C5B4 /* FileHandleConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D8ACE897FC7C7D3BB6FCDBB10C5627 /* FileHandleConvertible.swift */; };
+		BCF435767DD3EF56608BD02F481374D0 /* Renameable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC97409DCC82A2275A739C17CCE3B98 /* Renameable.swift */; };
+		C81B26C77F1481187978C416353ED53D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA295112A1F15B523F1F24A325208FF1 /* File.swift */; };
+		CE8D52F72EDB3A52DC4BCFAD2356E4F0 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD87CFAA00036946BEF59113A5173E7 /* Path.swift */; };
+		D0C1A0A39B8A98083B546C4EBF62C6F8 /* Linkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4C7FB1DA778493F8573FDCC8529FCC /* Linkable.swift */; };
+		DD7249E5DB51FCECC1631D1808B5DDCD /* SymbolicLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D859DC5B2E9C952B0B0AF6A6E6C8EA /* SymbolicLink.swift */; };
+		E90C0204307A07DD02D966AF6C6478FD /* UNIXFileSystem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 307FCF8436D9411E095163E96702AF98 /* UNIXFileSystem-dummy.m */; };
+		F20BFC57E2EC2A69C3169D0C3F085F2B /* CopyableSubitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BD9E347DF2CCF26628B8BADE172D74 /* CopyableSubitem.swift */; };
+		F4C3E02649C88AC82D708C756ECCBF6A /* PathRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CF7F8E7DD470E34930842DB187F6C /* PathRepresentable.swift */; };
+		F79CE526568A4806A12B542F84993F96 /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89504F4E942C1B5BCAF7BD4FE30FB8D2 /* Volume.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,51 +51,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04BB2F70384FAEFDE1F330E99CD71EC8 /* MoveableSubitem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoveableSubitem.swift; path = UNIXFileSystem/Source/MoveableSubitem.swift; sourceTree = "<group>"; };
-		0EC7B06FDE1ABF6562AFF3E841F9FBAD /* UNIXFileSystem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UNIXFileSystem.modulemap; sourceTree = "<group>"; };
-		15BD4EBA7BAB6B16DD46D5F798928089 /* Item.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Item.swift; path = UNIXFileSystem/Source/Item.swift; sourceTree = "<group>"; };
-		1622B9F962559E35A98C659BCF61005B /* CopyableSubitem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CopyableSubitem.swift; path = UNIXFileSystem/Source/CopyableSubitem.swift; sourceTree = "<group>"; };
-		1C6BFD8F64BCDA646463FFC0F54B19F2 /* Pods-UNIXFileSystem.Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UNIXFileSystem.Sample.release.xcconfig"; sourceTree = "<group>"; };
-		28A510487EAA1E420F7BD4E63F2FD819 /* UNIXFileSystem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UNIXFileSystem-prefix.pch"; sourceTree = "<group>"; };
-		35D2396D992E667A1BCE6CD24F7EC134 /* Pods-UNIXFileSystem.Sample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UNIXFileSystem.Sample-resources.sh"; sourceTree = "<group>"; };
-		38DF200B1F1B4AEA9A115A89261D97AA /* UNIXFileSystem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UNIXFileSystem-umbrella.h"; sourceTree = "<group>"; };
-		42F69308E518B57FD0E7236AB1D66D59 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		026F70C99258DD619DAA029EE521FB6B /* Pods-UNIXFileSystem.Sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UNIXFileSystem.Sample-umbrella.h"; sourceTree = "<group>"; };
+		0AD50883DA8FE0D63DA1B7CF0CF061BF /* Parent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parent.swift; path = UNIXFileSystem/Source/Parent.swift; sourceTree = "<group>"; };
+		0B4C7FB1DA778493F8573FDCC8529FCC /* Linkable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Linkable.swift; path = UNIXFileSystem/Source/Linkable.swift; sourceTree = "<group>"; };
+		2AD87CFAA00036946BEF59113A5173E7 /* Path.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Path.swift; path = UNIXFileSystem/Source/Path.swift; sourceTree = "<group>"; };
+		2C157124DC0240B1FEA0D51098DC67EF /* Pods-UNIXFileSystem.Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UNIXFileSystem.Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		307FCF8436D9411E095163E96702AF98 /* UNIXFileSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UNIXFileSystem-dummy.m"; sourceTree = "<group>"; };
+		3E617017544ADB6FA439F8506A5238BF /* FileWrapperConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileWrapperConvertible.swift; path = UNIXFileSystem/Source/FileWrapperConvertible.swift; sourceTree = "<group>"; };
 		45B140C14CB229084139582B8F5C207E /* Pods_UNIXFileSystem_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UNIXFileSystem_Sample.framework; path = "Pods-UNIXFileSystem.Sample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BE9850902A2350384038ED609698BDA /* Pods-UNIXFileSystem.Sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UNIXFileSystem.Sample.modulemap"; sourceTree = "<group>"; };
-		5DA2116E557A4EF8D2211449019A17BA /* Pods-UNIXFileSystem.Sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UNIXFileSystem.Sample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5F945593685A481FACD48033232B8947 /* FileHandleConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileHandleConvertible.swift; path = UNIXFileSystem/Source/FileHandleConvertible.swift; sourceTree = "<group>"; };
-		6090CD150574BFF28139326B5CBAEC0D /* AliasFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AliasFile.swift; path = UNIXFileSystem/Source/AliasFile.swift; sourceTree = "<group>"; };
+		47E5264415D3E01EAF26BF92B4E7EB99 /* Directory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Directory.swift; path = UNIXFileSystem/Source/Directory.swift; sourceTree = "<group>"; };
+		4BC718D63B0A3295297E548AC8A0A96D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4C4CF7F8E7DD470E34930842DB187F6C /* PathRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathRepresentable.swift; path = UNIXFileSystem/Source/PathRepresentable.swift; sourceTree = "<group>"; };
+		50D859DC5B2E9C952B0B0AF6A6E6C8EA /* SymbolicLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SymbolicLink.swift; path = UNIXFileSystem/Source/SymbolicLink.swift; sourceTree = "<group>"; };
+		607C54446FE6746F188BC7C5E12FA791 /* UNIXFileSystem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UNIXFileSystem-prefix.pch"; sourceTree = "<group>"; };
+		608F9FEFCA04D662DA6E329CF47A4C06 /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = UNIXFileSystem/Source/Copyable.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A5E5C5501920CB13B9D0FC4E343B33D /* UFS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UFS.swift; path = UNIXFileSystem/Source/UFS.swift; sourceTree = "<group>"; };
-		7269B2CA454E87A73122D308B990372E /* Pods-UNIXFileSystem.Sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UNIXFileSystem.Sample-umbrella.h"; sourceTree = "<group>"; };
-		762020A2747668CA45FDFEB3DE637870 /* Directory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Directory.swift; path = UNIXFileSystem/Source/Directory.swift; sourceTree = "<group>"; };
-		7C81C8C1B583C2A47AD1E756FE1EBBDD /* MIMEType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MIMEType.swift; path = UNIXFileSystem/Source/MIMEType.swift; sourceTree = "<group>"; };
-		8A0318964B8F8742BA30BB15FB4F999E /* Moveable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moveable.swift; path = UNIXFileSystem/Source/Moveable.swift; sourceTree = "<group>"; };
-		8A3D2789D874C7CEF29FDB9AE30D60CD /* SymbolicLinkable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SymbolicLinkable.swift; path = UNIXFileSystem/Source/SymbolicLinkable.swift; sourceTree = "<group>"; };
-		8CCC6F05D3DC30279E6777BEA29AC6AB /* Parent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parent.swift; path = UNIXFileSystem/Source/Parent.swift; sourceTree = "<group>"; };
-		8D7532A7D9F0EC676FAEBA544A6B38C3 /* Pods-UNIXFileSystem.Sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UNIXFileSystem.Sample-frameworks.sh"; sourceTree = "<group>"; };
+		6AF25868F99F232FD62DC59FE2BBD502 /* Moveable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moveable.swift; path = UNIXFileSystem/Source/Moveable.swift; sourceTree = "<group>"; };
+		76D8ACE897FC7C7D3BB6FCDBB10C5627 /* FileHandleConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileHandleConvertible.swift; path = UNIXFileSystem/Source/FileHandleConvertible.swift; sourceTree = "<group>"; };
+		7B399DAA781F4B75A79EE1759016E7C4 /* UNIXFileSystem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UNIXFileSystem.modulemap; sourceTree = "<group>"; };
+		7C10456FF0ABF4F358389D18192BBFC8 /* Pods-UNIXFileSystem.Sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UNIXFileSystem.Sample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		803B6DEA39A6C73B74FB05A0F4100357 /* Pods-UNIXFileSystem.Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UNIXFileSystem.Sample.release.xcconfig"; sourceTree = "<group>"; };
+		8408F04EE3F7B2FC965FE737D56DF7B8 /* Pods-UNIXFileSystem.Sample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UNIXFileSystem.Sample-resources.sh"; sourceTree = "<group>"; };
+		89504F4E942C1B5BCAF7BD4FE30FB8D2 /* Volume.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Volume.swift; path = UNIXFileSystem/Source/Volume.swift; sourceTree = "<group>"; };
+		8BFB646EA93D9E53A5AD675E328205E8 /* Pods-UNIXFileSystem.Sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UNIXFileSystem.Sample.modulemap"; sourceTree = "<group>"; };
+		9360B7FFF70581F99FC481A09D1CF6F2 /* Removeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Removeable.swift; path = UNIXFileSystem/Source/Removeable.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		981792C64E9219C5C5A555449B4EB872 /* Renameable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Renameable.swift; path = UNIXFileSystem/Source/Renameable.swift; sourceTree = "<group>"; };
-		9B1E46F6E87E7A0B0E5BA0544D9DC7D5 /* Pods-UNIXFileSystem.Sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UNIXFileSystem.Sample-acknowledgements.plist"; sourceTree = "<group>"; };
-		9FA66CDBA7E805DD020A4D62F35FCEB2 /* Pods-UNIXFileSystem.Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UNIXFileSystem.Sample.debug.xcconfig"; sourceTree = "<group>"; };
-		A3640A3A190B015E15A378D866AAD1D7 /* UNIXFileSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UNIXFileSystem-dummy.m"; sourceTree = "<group>"; };
-		AA39B7AEDBA72EF3B181D1C15A5E45FA /* FileWrapperConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileWrapperConvertible.swift; path = UNIXFileSystem/Source/FileWrapperConvertible.swift; sourceTree = "<group>"; };
-		B04EF66D0B63AE9928A2BDC894F8C9B6 /* Trashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trashable.swift; path = UNIXFileSystem/Source/Trashable.swift; sourceTree = "<group>"; };
-		B21DFF5B358E1D4BC4B21C4E20754954 /* SymbolicLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SymbolicLink.swift; path = UNIXFileSystem/Source/SymbolicLink.swift; sourceTree = "<group>"; };
+		9B7DA07162C528B5F2F630729C489B01 /* Pods-UNIXFileSystem.Sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UNIXFileSystem.Sample-frameworks.sh"; sourceTree = "<group>"; };
+		9CA53AEC8677BF41C98335C41D07742B /* Pods-UNIXFileSystem.Sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UNIXFileSystem.Sample-acknowledgements.plist"; sourceTree = "<group>"; };
+		A1CCBF9A97482021257597133CAC267C /* RegularFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegularFile.swift; path = UNIXFileSystem/Source/RegularFile.swift; sourceTree = "<group>"; };
+		A9F96D360BCD928D3888FAC45CB5E67E /* UFS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UFS.swift; path = UNIXFileSystem/Source/UFS.swift; sourceTree = "<group>"; };
+		AA295112A1F15B523F1F24A325208FF1 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = UNIXFileSystem/Source/File.swift; sourceTree = "<group>"; };
+		AC1097423A727B830EF00065E7FC0568 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5762CCB4FD4F5B9C2DF73A54478F2A /* UNIXFileSystem.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = UNIXFileSystem.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B12603F92E2AACAD670014D82EE49022 /* MoveableSubitem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoveableSubitem.swift; path = UNIXFileSystem/Source/MoveableSubitem.swift; sourceTree = "<group>"; };
+		B1BD9E347DF2CCF26628B8BADE172D74 /* CopyableSubitem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CopyableSubitem.swift; path = UNIXFileSystem/Source/CopyableSubitem.swift; sourceTree = "<group>"; };
 		B503C2DD879019B8CCB38B20F26F3BA6 /* UNIXFileSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UNIXFileSystem.framework; path = UNIXFileSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8A2DCC23161F0FA7768944F78A1D147 /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = UNIXFileSystem/Source/Copyable.swift; sourceTree = "<group>"; };
-		BD4BC8B50622284FC687B9BBAFB47F5C /* Linkable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Linkable.swift; path = UNIXFileSystem/Source/Linkable.swift; sourceTree = "<group>"; };
-		C0CFEA90C2D636B6B879F10EBFA3E28D /* Pods-UNIXFileSystem.Sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UNIXFileSystem.Sample-dummy.m"; sourceTree = "<group>"; };
-		C31B57E55345DF8803FD3F5519ACD667 /* Aliasable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Aliasable.swift; path = UNIXFileSystem/Source/Aliasable.swift; sourceTree = "<group>"; };
-		C398FA415B5DCABE7C8C162E0E3E0F6B /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = UNIXFileSystem/Source/File.swift; sourceTree = "<group>"; };
-		C4A0DF594661D898F844F23E08A8B3B4 /* Subitem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subitem.swift; path = UNIXFileSystem/Source/Subitem.swift; sourceTree = "<group>"; };
-		C4A18BC9034F7A2D94CD05EE08A7BB97 /* UNIXFileSystem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UNIXFileSystem.xcconfig; sourceTree = "<group>"; };
-		C6161F6489B64ACE7CC03F264F043436 /* RegularFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegularFile.swift; path = UNIXFileSystem/Source/RegularFile.swift; sourceTree = "<group>"; };
-		CFEF8717CDF581E210573FB5FBCC8813 /* Volume.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Volume.swift; path = UNIXFileSystem/Source/Volume.swift; sourceTree = "<group>"; };
-		D35DBC9A2897C29DCC5CDBF6CF761722 /* Path.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Path.swift; path = UNIXFileSystem/Source/Path.swift; sourceTree = "<group>"; };
-		F1710CA3DBD63EF7517BBA2A659B7454 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3B24B8F9043A6F792C5D8B6C11235A9 /* Removeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Removeable.swift; path = UNIXFileSystem/Source/Removeable.swift; sourceTree = "<group>"; };
-		FD7B24245C741A51E82E13EB47A9EB10 /* PathRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathRepresentable.swift; path = UNIXFileSystem/Source/PathRepresentable.swift; sourceTree = "<group>"; };
+		BC3DD8A9465E8CAD7CA5900BCD3F18A6 /* UNIXFileSystem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UNIXFileSystem.xcconfig; sourceTree = "<group>"; };
+		BF105F5363B8D32DB52D9AE99A5778D9 /* Pods-UNIXFileSystem.Sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UNIXFileSystem.Sample-dummy.m"; sourceTree = "<group>"; };
+		BFFE2C616A70767892EA79ED1BE6E80A /* UNIXFileSystem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UNIXFileSystem-umbrella.h"; sourceTree = "<group>"; };
+		C134E7B289749E457FB6083184CA50DE /* Aliasable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Aliasable.swift; path = UNIXFileSystem/Source/Aliasable.swift; sourceTree = "<group>"; };
+		CD37D025658262C5753391AB0450FB53 /* Trashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trashable.swift; path = UNIXFileSystem/Source/Trashable.swift; sourceTree = "<group>"; };
+		DDC97409DCC82A2275A739C17CCE3B98 /* Renameable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Renameable.swift; path = UNIXFileSystem/Source/Renameable.swift; sourceTree = "<group>"; };
+		E50901FE8A9F4DD6549FE53CCFB3A812 /* Subitem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subitem.swift; path = UNIXFileSystem/Source/Subitem.swift; sourceTree = "<group>"; };
+		EC018A0EC423B86DA1EC43D667A77F47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03A59173035B8A5C0963323E12E4796 /* SymbolicLinkable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SymbolicLinkable.swift; path = UNIXFileSystem/Source/SymbolicLinkable.swift; sourceTree = "<group>"; };
+		F117F02C8AE802FAFA6C9F5CC6334BE8 /* Item.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Item.swift; path = UNIXFileSystem/Source/Item.swift; sourceTree = "<group>"; };
+		F13305EAFC4FE6A0A5D269071186E02D /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
+		F4225B9DE1C6AAD007FE5FAF963B7554 /* MIMEType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MIMEType.swift; path = UNIXFileSystem/Source/MIMEType.swift; sourceTree = "<group>"; };
+		FE5E2BBBE7F41176B3B7AB03E7082520 /* AliasFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AliasFile.swift; path = UNIXFileSystem/Source/AliasFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,67 +121,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12957B46E1D5015015D5156436257840 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				42F69308E518B57FD0E7236AB1D66D59 /* Info.plist */,
-				0EC7B06FDE1ABF6562AFF3E841F9FBAD /* UNIXFileSystem.modulemap */,
-				C4A18BC9034F7A2D94CD05EE08A7BB97 /* UNIXFileSystem.xcconfig */,
-				A3640A3A190B015E15A378D866AAD1D7 /* UNIXFileSystem-dummy.m */,
-				28A510487EAA1E420F7BD4E63F2FD819 /* UNIXFileSystem-prefix.pch */,
-				38DF200B1F1B4AEA9A115A89261D97AA /* UNIXFileSystem-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Sample/Pods/Target Support Files/UNIXFileSystem";
-			sourceTree = "<group>";
-		};
 		302EEEA499B898325CD65FEDDB9C299A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C7E6117ADBB62AA2DB050F761F4E6655 /* Pods-UNIXFileSystem.Sample */,
+				4220641851AAE7DDFC25A63759607E11 /* Pods-UNIXFileSystem.Sample */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4CB4D53145C7B1DB541B9F67AD760210 /* UNIXFileSystem */ = {
+		4220641851AAE7DDFC25A63759607E11 /* Pods-UNIXFileSystem.Sample */ = {
 			isa = PBXGroup;
 			children = (
-				C31B57E55345DF8803FD3F5519ACD667 /* Aliasable.swift */,
-				6090CD150574BFF28139326B5CBAEC0D /* AliasFile.swift */,
-				B8A2DCC23161F0FA7768944F78A1D147 /* Copyable.swift */,
-				1622B9F962559E35A98C659BCF61005B /* CopyableSubitem.swift */,
-				762020A2747668CA45FDFEB3DE637870 /* Directory.swift */,
-				C398FA415B5DCABE7C8C162E0E3E0F6B /* File.swift */,
-				5F945593685A481FACD48033232B8947 /* FileHandleConvertible.swift */,
-				AA39B7AEDBA72EF3B181D1C15A5E45FA /* FileWrapperConvertible.swift */,
-				15BD4EBA7BAB6B16DD46D5F798928089 /* Item.swift */,
-				BD4BC8B50622284FC687B9BBAFB47F5C /* Linkable.swift */,
-				7C81C8C1B583C2A47AD1E756FE1EBBDD /* MIMEType.swift */,
-				8A0318964B8F8742BA30BB15FB4F999E /* Moveable.swift */,
-				04BB2F70384FAEFDE1F330E99CD71EC8 /* MoveableSubitem.swift */,
-				8CCC6F05D3DC30279E6777BEA29AC6AB /* Parent.swift */,
-				D35DBC9A2897C29DCC5CDBF6CF761722 /* Path.swift */,
-				FD7B24245C741A51E82E13EB47A9EB10 /* PathRepresentable.swift */,
-				C6161F6489B64ACE7CC03F264F043436 /* RegularFile.swift */,
-				F3B24B8F9043A6F792C5D8B6C11235A9 /* Removeable.swift */,
-				981792C64E9219C5C5A555449B4EB872 /* Renameable.swift */,
-				C4A0DF594661D898F844F23E08A8B3B4 /* Subitem.swift */,
-				B21DFF5B358E1D4BC4B21C4E20754954 /* SymbolicLink.swift */,
-				8A3D2789D874C7CEF29FDB9AE30D60CD /* SymbolicLinkable.swift */,
-				B04EF66D0B63AE9928A2BDC894F8C9B6 /* Trashable.swift */,
-				6A5E5C5501920CB13B9D0FC4E343B33D /* UFS.swift */,
-				CFEF8717CDF581E210573FB5FBCC8813 /* Volume.swift */,
-				12957B46E1D5015015D5156436257840 /* Support Files */,
+				EC018A0EC423B86DA1EC43D667A77F47 /* Info.plist */,
+				8BFB646EA93D9E53A5AD675E328205E8 /* Pods-UNIXFileSystem.Sample.modulemap */,
+				7C10456FF0ABF4F358389D18192BBFC8 /* Pods-UNIXFileSystem.Sample-acknowledgements.markdown */,
+				9CA53AEC8677BF41C98335C41D07742B /* Pods-UNIXFileSystem.Sample-acknowledgements.plist */,
+				BF105F5363B8D32DB52D9AE99A5778D9 /* Pods-UNIXFileSystem.Sample-dummy.m */,
+				9B7DA07162C528B5F2F630729C489B01 /* Pods-UNIXFileSystem.Sample-frameworks.sh */,
+				8408F04EE3F7B2FC965FE737D56DF7B8 /* Pods-UNIXFileSystem.Sample-resources.sh */,
+				026F70C99258DD619DAA029EE521FB6B /* Pods-UNIXFileSystem.Sample-umbrella.h */,
+				2C157124DC0240B1FEA0D51098DC67EF /* Pods-UNIXFileSystem.Sample.debug.xcconfig */,
+				803B6DEA39A6C73B74FB05A0F4100357 /* Pods-UNIXFileSystem.Sample.release.xcconfig */,
 			);
-			name = UNIXFileSystem;
-			path = ../..;
+			name = "Pods-UNIXFileSystem.Sample";
+			path = "Target Support Files/Pods-UNIXFileSystem.Sample";
+			sourceTree = "<group>";
+		};
+		4E76EFC24B7899B6FBC2D1F12A5B2C20 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC1097423A727B830EF00065E7FC0568 /* Info.plist */,
+				7B399DAA781F4B75A79EE1759016E7C4 /* UNIXFileSystem.modulemap */,
+				BC3DD8A9465E8CAD7CA5900BCD3F18A6 /* UNIXFileSystem.xcconfig */,
+				307FCF8436D9411E095163E96702AF98 /* UNIXFileSystem-dummy.m */,
+				607C54446FE6746F188BC7C5E12FA791 /* UNIXFileSystem-prefix.pch */,
+				BFFE2C616A70767892EA79ED1BE6E80A /* UNIXFileSystem-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Sample/Pods/Target Support Files/UNIXFileSystem";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F9076740EA42B0391BCEC92E21746232 /* Development Pods */,
+				FD07E28994F4918875A9A7535104C48B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				82E68FF62470F39BE692CC46D59F4A87 /* Products */,
 				302EEEA499B898325CD65FEDDB9C299A /* Targets Support Files */,
@@ -194,6 +181,41 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		898874C7AD1D2C16E2111DF1D38E4618 /* UNIXFileSystem */ = {
+			isa = PBXGroup;
+			children = (
+				C134E7B289749E457FB6083184CA50DE /* Aliasable.swift */,
+				FE5E2BBBE7F41176B3B7AB03E7082520 /* AliasFile.swift */,
+				608F9FEFCA04D662DA6E329CF47A4C06 /* Copyable.swift */,
+				B1BD9E347DF2CCF26628B8BADE172D74 /* CopyableSubitem.swift */,
+				47E5264415D3E01EAF26BF92B4E7EB99 /* Directory.swift */,
+				AA295112A1F15B523F1F24A325208FF1 /* File.swift */,
+				76D8ACE897FC7C7D3BB6FCDBB10C5627 /* FileHandleConvertible.swift */,
+				3E617017544ADB6FA439F8506A5238BF /* FileWrapperConvertible.swift */,
+				F117F02C8AE802FAFA6C9F5CC6334BE8 /* Item.swift */,
+				0B4C7FB1DA778493F8573FDCC8529FCC /* Linkable.swift */,
+				F4225B9DE1C6AAD007FE5FAF963B7554 /* MIMEType.swift */,
+				6AF25868F99F232FD62DC59FE2BBD502 /* Moveable.swift */,
+				B12603F92E2AACAD670014D82EE49022 /* MoveableSubitem.swift */,
+				0AD50883DA8FE0D63DA1B7CF0CF061BF /* Parent.swift */,
+				2AD87CFAA00036946BEF59113A5173E7 /* Path.swift */,
+				4C4CF7F8E7DD470E34930842DB187F6C /* PathRepresentable.swift */,
+				A1CCBF9A97482021257597133CAC267C /* RegularFile.swift */,
+				9360B7FFF70581F99FC481A09D1CF6F2 /* Removeable.swift */,
+				DDC97409DCC82A2275A739C17CCE3B98 /* Renameable.swift */,
+				E50901FE8A9F4DD6549FE53CCFB3A812 /* Subitem.swift */,
+				50D859DC5B2E9C952B0B0AF6A6E6C8EA /* SymbolicLink.swift */,
+				F03A59173035B8A5C0963323E12E4796 /* SymbolicLinkable.swift */,
+				CD37D025658262C5753391AB0450FB53 /* Trashable.swift */,
+				A9F96D360BCD928D3888FAC45CB5E67E /* UFS.swift */,
+				89504F4E942C1B5BCAF7BD4FE30FB8D2 /* Volume.swift */,
+				CC642C00B35032B020A21AEFF9F5E082 /* Pod */,
+				4E76EFC24B7899B6FBC2D1F12A5B2C20 /* Support Files */,
+			);
+			name = UNIXFileSystem;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,22 +224,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C7E6117ADBB62AA2DB050F761F4E6655 /* Pods-UNIXFileSystem.Sample */ = {
+		CC642C00B35032B020A21AEFF9F5E082 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F1710CA3DBD63EF7517BBA2A659B7454 /* Info.plist */,
-				4BE9850902A2350384038ED609698BDA /* Pods-UNIXFileSystem.Sample.modulemap */,
-				5DA2116E557A4EF8D2211449019A17BA /* Pods-UNIXFileSystem.Sample-acknowledgements.markdown */,
-				9B1E46F6E87E7A0B0E5BA0544D9DC7D5 /* Pods-UNIXFileSystem.Sample-acknowledgements.plist */,
-				C0CFEA90C2D636B6B879F10EBFA3E28D /* Pods-UNIXFileSystem.Sample-dummy.m */,
-				8D7532A7D9F0EC676FAEBA544A6B38C3 /* Pods-UNIXFileSystem.Sample-frameworks.sh */,
-				35D2396D992E667A1BCE6CD24F7EC134 /* Pods-UNIXFileSystem.Sample-resources.sh */,
-				7269B2CA454E87A73122D308B990372E /* Pods-UNIXFileSystem.Sample-umbrella.h */,
-				9FA66CDBA7E805DD020A4D62F35FCEB2 /* Pods-UNIXFileSystem.Sample.debug.xcconfig */,
-				1C6BFD8F64BCDA646463FFC0F54B19F2 /* Pods-UNIXFileSystem.Sample.release.xcconfig */,
+				F13305EAFC4FE6A0A5D269071186E02D /* LICENSE.md */,
+				4BC718D63B0A3295297E548AC8A0A96D /* README.md */,
+				AD5762CCB4FD4F5B9C2DF73A54478F2A /* UNIXFileSystem.podspec */,
 			);
-			name = "Pods-UNIXFileSystem.Sample";
-			path = "Target Support Files/Pods-UNIXFileSystem.Sample";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -228,10 +242,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F9076740EA42B0391BCEC92E21746232 /* Development Pods */ = {
+		FD07E28994F4918875A9A7535104C48B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4CB4D53145C7B1DB541B9F67AD760210 /* UNIXFileSystem */,
+				898874C7AD1D2C16E2111DF1D38E4618 /* UNIXFileSystem */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -299,8 +313,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -376,7 +390,7 @@
 /* Begin XCBuildConfiguration section */
 		21C0BC8AACC8A342A8E384754A3F935A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FA66CDBA7E805DD020A4D62F35FCEB2 /* Pods-UNIXFileSystem.Sample.debug.xcconfig */;
+			baseConfigurationReference = 2C157124DC0240B1FEA0D51098DC67EF /* Pods-UNIXFileSystem.Sample.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -408,9 +422,9 @@
 			};
 			name = Debug;
 		};
-		8285F3741973428BCF529A3F0F35F436 /* Release */ = {
+		4D212A70036FA10DA0E5A2AEC7FE2EF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4A18BC9034F7A2D94CD05EE08A7BB97 /* UNIXFileSystem.xcconfig */;
+			baseConfigurationReference = BC3DD8A9465E8CAD7CA5900BCD3F18A6 /* UNIXFileSystem.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -432,7 +446,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -440,9 +454,40 @@
 			};
 			name = Release;
 		};
+		6E5A5E543D7FF30C6452676F4B9F5C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3DD8A9465E8CAD7CA5900BCD3F18A6 /* UNIXFileSystem.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UNIXFileSystem/UNIXFileSystem-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UNIXFileSystem/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UNIXFileSystem/UNIXFileSystem.modulemap";
+				PRODUCT_NAME = UNIXFileSystem;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		878D7E99E5C0FF94243DC432D4620EDA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C6BFD8F64BCDA646463FFC0F54B19F2 /* Pods-UNIXFileSystem.Sample.release.xcconfig */;
+			baseConfigurationReference = 803B6DEA39A6C73B74FB05A0F4100357 /* Pods-UNIXFileSystem.Sample.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -474,7 +519,7 @@
 			};
 			name = Release;
 		};
-		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -484,10 +529,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -495,92 +542,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B85B173AC5C7BD42EBA4A40615D72C87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4A18BC9034F7A2D94CD05EE08A7BB97 /* UNIXFileSystem.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UNIXFileSystem/UNIXFileSystem-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UNIXFileSystem/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UNIXFileSystem/UNIXFileSystem.modulemap";
-				PRODUCT_NAME = UNIXFileSystem;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -620,6 +582,64 @@
 			};
 			name = Debug;
 		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -635,8 +655,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
-				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -644,8 +664,8 @@
 		71717A47FB08E6557E678DB008DDA63C /* Build configuration list for PBXNativeTarget "UNIXFileSystem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B85B173AC5C7BD42EBA4A40615D72C87 /* Debug */,
-				8285F3741973428BCF529A3F0F35F436 /* Release */,
+				6E5A5E543D7FF30C6452676F4B9F5C74 /* Debug */,
+				4D212A70036FA10DA0E5A2AEC7FE2EF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
