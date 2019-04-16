@@ -30,9 +30,8 @@
 		5CCED9541EFEAE0A007A648C /* UNIXFileSystem.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UNIXFileSystem.framework; path = "../../../../Library/Developer/Xcode/DerivedData/UNIXFileSystem_UNIXFileSystemSample-cqtnzeughulncmbjidcorbwoztub/Build/Products/Debug-iphonesimulator/UNIXFileSystem/UNIXFileSystem.framework"; sourceTree = "<group>"; };
 		64A130732079D43300AED761 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 		64A130742079D43300AED761 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
-		64A130752079D43300AED761 /* UNIXFileSystem.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = UNIXFileSystem.podspec; path = ../UNIXFileSystem.podspec; sourceTree = "<group>"; };
+		64A130752079D43300AED761 /* UNIXFileSystem.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = UNIXFileSystem.podspec; path = ../UNIXFileSystem.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		64A130762079D43300AED761 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		64A130772079D43300AED761 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; name = ".swift-version"; path = "../.swift-version"; sourceTree = "<group>"; };
 		92B09539D0E95C3F12C3C6B0 /* Pods-UNIXFileSystem.Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UNIXFileSystem.Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-UNIXFileSystem.Sample/Pods-UNIXFileSystem.Sample.release.xcconfig"; sourceTree = "<group>"; };
 		B2F6E6253EAA6E99FDF50D49 /* Pods-UNIXFileSystem.Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UNIXFileSystem.Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UNIXFileSystem.Sample/Pods-UNIXFileSystem.Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		B6160BD6554DE33B27227029 /* Pods-UNIXFileSystem UNIXFileSystemSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UNIXFileSystem UNIXFileSystemSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-UNIXFileSystem UNIXFileSystemSample/Pods-UNIXFileSystem UNIXFileSystemSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -55,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				64A130742079D43300AED761 /* .gitignore */,
-				64A130772079D43300AED761 /* .swift-version */,
 				64A130732079D43300AED761 /* LICENSE.md */,
 				64A130762079D43300AED761 /* README.md */,
 				64A130752079D43300AED761 /* UNIXFileSystem.podspec */,
@@ -120,7 +118,6 @@
 				5CCED93C1EFEAD9B007A648C /* Frameworks */,
 				5CCED93D1EFEAD9B007A648C /* Resources */,
 				B3CE5F0772FDCC6F6200EA30 /* [CP] Embed Pods Frameworks */,
-				C1C26B29D74BBFAF8038C59A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,20 +135,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Meniny;
 				TargetAttributes = {
 					5CCED93E1EFEAD9B007A648C = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 63YL5QDMNS;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 5CCED93A1EFEAD9B007A648C /* Build configuration list for PBXProject "UNIXFileSystem.Sample" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -187,7 +184,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-UNIXFileSystem.Sample/Pods-UNIXFileSystem.Sample-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-UNIXFileSystem.Sample/Pods-UNIXFileSystem.Sample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/UNIXFileSystem/UNIXFileSystem.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -196,22 +193,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UNIXFileSystem.Sample/Pods-UNIXFileSystem.Sample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C1C26B29D74BBFAF8038C59A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UNIXFileSystem.Sample/Pods-UNIXFileSystem.Sample-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UNIXFileSystem.Sample/Pods-UNIXFileSystem.Sample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E15AFB736F01D62A44AF3212 /* [CP] Check Pods Manifest.lock */ = {
@@ -270,6 +252,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -328,6 +311,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -386,8 +370,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.UNIXFileSystem.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -402,8 +385,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.UNIXFileSystem.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

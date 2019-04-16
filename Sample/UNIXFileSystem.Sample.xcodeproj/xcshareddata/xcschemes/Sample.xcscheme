@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5CCED93E1EFEAD9B007A648C"
-               BuildableName = "UNIXFileSystem UNIXFileSystemSample.app"
-               BlueprintName = "UNIXFileSystem UNIXFileSystemSample"
-               ReferencedContainer = "container:UNIXFileSystem UNIXFileSystemSample.xcodeproj">
+               BuildableName = "UNIXFileSystem.Sample.app"
+               BlueprintName = "UNIXFileSystem.Sample"
+               ReferencedContainer = "container:UNIXFileSystem.Sample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5CCED93E1EFEAD9B007A648C"
-            BuildableName = "UNIXFileSystem UNIXFileSystemSample.app"
-            BlueprintName = "UNIXFileSystem UNIXFileSystemSample"
-            ReferencedContainer = "container:UNIXFileSystem UNIXFileSystemSample.xcodeproj">
+            BuildableName = "UNIXFileSystem.Sample.app"
+            BlueprintName = "UNIXFileSystem.Sample"
+            ReferencedContainer = "container:UNIXFileSystem.Sample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5CCED93E1EFEAD9B007A648C"
-            BuildableName = "UNIXFileSystem UNIXFileSystemSample.app"
-            BlueprintName = "UNIXFileSystem UNIXFileSystemSample"
-            ReferencedContainer = "container:UNIXFileSystem UNIXFileSystemSample.xcodeproj">
+            BuildableName = "UNIXFileSystem.Sample.app"
+            BlueprintName = "UNIXFileSystem.Sample"
+            ReferencedContainer = "container:UNIXFileSystem.Sample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5CCED93E1EFEAD9B007A648C"
-            BuildableName = "UNIXFileSystem UNIXFileSystemSample.app"
-            BlueprintName = "UNIXFileSystem UNIXFileSystemSample"
-            ReferencedContainer = "container:UNIXFileSystem UNIXFileSystemSample.xcodeproj">
+            BuildableName = "UNIXFileSystem.Sample.app"
+            BlueprintName = "UNIXFileSystem.Sample"
+            ReferencedContainer = "container:UNIXFileSystem.Sample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

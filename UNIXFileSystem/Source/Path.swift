@@ -205,7 +205,7 @@ public enum UFSResouceType {
 }
 
 public extension URLResourceValues {
-    public func `is`(a type: UFSResouceType) -> Bool? {
+    func `is`(a type: UFSResouceType) -> Bool? {
         switch type {
         case .regularFile:
             return self.isRegularFile

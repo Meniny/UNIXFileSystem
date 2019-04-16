@@ -224,7 +224,7 @@ public enum UFSFileExtension: String {
 }
 
 public extension UFSFile {
-    public var mimeType: String {
+    var mimeType: String {
         return UFSFileExtension.init(rawValue: self.path.pathExtension)?.mimeType ?? DEFAULT_MIME_TYPE
     }
 }

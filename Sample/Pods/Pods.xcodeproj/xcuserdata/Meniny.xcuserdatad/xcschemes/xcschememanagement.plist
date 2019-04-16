@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-UNIXFileSystem UNIXFileSystemSample.xcscheme</key>
+		<key>Pods-UNIXFileSystem.Sample.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -16,17 +16,6 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>2D14CBF2731A7D92A595E90BC016466F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CFDA0A9D624A5C4F3A2EC7C09B30FB04</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

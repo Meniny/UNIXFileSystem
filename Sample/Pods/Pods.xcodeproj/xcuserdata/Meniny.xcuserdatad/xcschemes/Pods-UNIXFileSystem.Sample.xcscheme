@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CFDA0A9D624A5C4F3A2EC7C09B30FB04"
-               BuildableName = "Pods_UNIXFileSystem_UNIXFileSystemSample.framework"
-               BlueprintName = "Pods-UNIXFileSystem UNIXFileSystemSample"
+               BlueprintIdentifier = "03FD47414BC862D38DD6E8D4C92A68D5"
+               BuildableName = "Pods_UNIXFileSystem_Sample.framework"
+               BlueprintName = "Pods-UNIXFileSystem.Sample"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CFDA0A9D624A5C4F3A2EC7C09B30FB04"
-            BuildableName = "Pods_UNIXFileSystem_UNIXFileSystemSample.framework"
-            BlueprintName = "Pods-UNIXFileSystem UNIXFileSystemSample"
+            BlueprintIdentifier = "03FD47414BC862D38DD6E8D4C92A68D5"
+            BuildableName = "Pods_UNIXFileSystem_Sample.framework"
+            BlueprintName = "Pods-UNIXFileSystem.Sample"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

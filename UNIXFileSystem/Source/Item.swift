@@ -19,14 +19,14 @@ public protocol UFSItem: UFSPathRepresentable, CustomStringConvertible, CustomDe
 
 public extension UFSItem /* CustomStringConvertible*/ {
     /// A textual representation of this instance, returning the represented path's `rawValue`.
-    public var description: String {
+    var description: String {
         return path.description
     }
 }
 
 public extension UFSItem /* CustomDebugStringConvertible */ {
     /// A textual representation of this instance.
-    public var debugDescription: String {
+    var debugDescription: String {
         return "\(type(of: self)) \(path.rawValue)"
     }
 }
@@ -34,90 +34,90 @@ public extension UFSItem /* CustomDebugStringConvertible */ {
 public extension UFSItem {
     
     /// Returns if the item exists.
-    public func exists() -> Bool {
+    func exists() -> Bool {
         return path.exists
     }
     
     /// Returns if the item is a directory.
-    public func isDirectory() -> Bool {
+    func isDirectory() -> Bool {
         return path.isDirectory
     }
     
     /// Returns if the item's localized name.
-    public func localizedName() throws -> String {
+    func localizedName() throws -> String {
         let values = try path.url.resourceValues(forKeys: [.localizedNameKey])
         return values.localizedName!
     }
     
     /// Returns if the item is readable.
-    public func isReadable() throws -> Bool {
+    func isReadable() throws -> Bool {
         let values = try path.url.resourceValues(forKeys: [.isReadableKey])
         return values.isReadable!
     }
     
     /// Returns if the item is writebale.
-    public func isWritable() throws -> Bool {
+    func isWritable() throws -> Bool {
         let values = try path.url.resourceValues(forKeys: [.isWritableKey])
         return values.isWritable!
     }
     
     /// Returns if the item is executable.
-    public func isExecutable() throws -> Bool {
+    func isExecutable() throws -> Bool {
         let values = try path.url.resourceValues(forKeys: [.isExecutableKey])
         return values.isExecutable!
     }
     
     /// Returns if the item is hidden.
-    public func isHidden() throws -> Bool {
+    func isHidden() throws -> Bool {
         let values = try path.url.resourceValues(forKeys: [.isHiddenKey])
         return values.isHidden!
     }
     
     /// Returns if the item is a package.
-    public func isPackage() throws -> Bool {
+    func isPackage() throws -> Bool {
         let values = try path.url.resourceValues(forKeys: [.isPackageKey])
         return values.isPackage!
     }
     
     /// Returns if the item is a application.
     @available(iOS 9.0, tvOS 9.0, watchOS 2.0, macOS 10.11, *)
-    public func isApplication() throws -> Bool {
+    func isApplication() throws -> Bool {
         let values = try path.url.resourceValues(forKeys: [.isApplicationKey])
         return values.isApplication!
     }
     
     /// Returns if the item is a alias file.
-    public func isAliasFile() throws -> Bool {
+    func isAliasFile() throws -> Bool {
         let values = try path.url.resourceValues(forKeys: [.isAliasFileKey])
         return values.isAliasFile!
     }
     
     /// Returns if the item is a symbolic link.
-    public func isSymbolicLink() throws -> Bool {
+    func isSymbolicLink() throws -> Bool {
         let values = try path.url.resourceValues(forKeys: [.isSymbolicLinkKey])
         return values.isSymbolicLink!
     }
     
     /// Returns if the item's creation date.
-    public func creationDate() throws -> Date {
+    func creationDate() throws -> Date {
         let values = try path.url.resourceValues(forKeys: [.creationDateKey])
         return values.creationDate!
     }
     
     /// Returns if the item's content access date.
-    public func contentAccessDate() throws -> Date  {
+    func contentAccessDate() throws -> Date  {
         let values = try path.url.resourceValues(forKeys: [.contentAccessDateKey])
         return values.contentAccessDate!
     }
     
     /// Returns if the item's content modification date.
-    public func contentModificationDate() throws -> Date  {
+    func contentModificationDate() throws -> Date  {
         let values = try path.url.resourceValues(forKeys: [.contentModificationDateKey])
         return values.contentModificationDate!
     }
     
     /// Returns if the item's attribute modification date.
-    public func attributeModificationDate() throws -> Date  {
+    func attributeModificationDate() throws -> Date  {
         let values = try path.url.resourceValues(forKeys: [.attributeModificationDateKey])
         return values.attributeModificationDate!
     }
@@ -129,7 +129,7 @@ public extension UFSItem {
     /// - throws: An `Error`.
     ///
     /// - returns: attibutes
-    public func attributes() throws -> [FileAttributeKey: Any]  {
+    func attributes() throws -> [FileAttributeKey: Any]  {
         return try FileManager.default.attributesOfItem(atPath: path.rawValue)
     }
     
@@ -138,7 +138,7 @@ public extension UFSItem {
     /// - parameter attributes: The attributes to set on the item.
     ///
     /// - throws: An `Error`.
-    public func setAttributes(_ attributes: [FileAttributeKey: Any]) throws {
+    func setAttributes(_ attributes: [FileAttributeKey: Any]) throws {
         return try FileManager.default.setAttributes(attributes, ofItemAtPath: path.rawValue)
     }
 }

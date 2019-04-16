@@ -20,73 +20,73 @@ public typealias FileSystem = UNIXFileSystem
 // MARK: - Values
 public extension UNIXFileSystem {
     
-    public static var root: UFSDirectory {
+    static var root: UFSDirectory {
         return UFSDirectory.root
     }
     
     /// Returns a Temporary `UFSDirectory`.
     @available(iOS 10.0, tvOS 10.0, watchOS 3.0, macOS 10.12, *)
-    public static var temporary: UFSDirectory {
+    static var temporary: UFSDirectory {
         return UFSDirectory.temporary
     }
     
     /// Returns the Document `UFSDirectory` in the current users home directory.
-    public static var document: UFSDirectory {
+    static var document: UFSDirectory {
         return UFSDirectory.document
     }
     
     /// Returns the Library `UFSDirectory` in the current users home directory.
-    public static var library: UFSDirectory {
+    static var library: UFSDirectory {
         return UFSDirectory.library
     }
     
     /// Returns the Caches `UFSDirectory` in the current users home directory.
-    public static var caches: UFSDirectory {
+    static var caches: UFSDirectory {
         return UFSDirectory.caches
     }
     
     /// Returns the Application(s) `UFSDirectory` in the current users home directory.
-    public static var application: UFSDirectory {
+    static var application: UFSDirectory {
         return UFSDirectory.application
     }
     
     /// Returns the Application Support UFSDirectory in the current users home directory.
-    public static var applicationSupport: UFSDirectory {
+    static var applicationSupport: UFSDirectory {
         return UFSDirectory.applicationSupport
     }
     
     /// Returns the Desktop `UFSDirectory` in the current users home directory.
-    public static var desktop: UFSDirectory {
+    static var desktop: UFSDirectory {
         return UFSDirectory.desktop
     }
     
     /// Returns the Downloads `UFSDirectory` in the current users home directory.
-    public static var downloads: UFSDirectory {
+    static var downloads: UFSDirectory {
         return UFSDirectory.downloads
     }
     
     /// Returns the Movies `UFSDirectory` in the current users home directory.
-    public static var movies: UFSDirectory {
+    static var movies: UFSDirectory {
         return UFSDirectory.movies
     }
     
     /// Returns the Music `UFSDirectory` in the current users home directory.
-    public static var music: UFSDirectory {
+    static var music: UFSDirectory {
         return UFSDirectory.music
     }
     
     /// Returns the Pictures `UFSDirectory` in the current users home directory.
-    public static var pictures: UFSDirectory {
+    static var pictures: UFSDirectory {
         return UFSDirectory.pictures
     }
     
     /// Returns all directories where applications can be stored in the current users home directory.
-    public static var applications: [UFSDirectory] {
+    static var applications: [UFSDirectory] {
         return UFSDirectory.applications
     }
     
     /// Returns all libaries where applications can be stored in the current users home directory.
-    public static var libraries: [UFSDirectory] {
+    static var libraries: [UFSDirectory] {
         return UFSDirectory.libraries
     }
 }
@@ -105,7 +105,7 @@ public extension UNIXFileSystem {
     ///
     /// - returns: A `UFSDirectory` or throws an `Error`.
     @discardableResult
-    public static func create(folder: String, in directory: UFSDirectory, withIntermediateDirectories: Bool = false, attributes: [FileAttributeKey: Any]? = nil) throws -> UFSDirectory {
+    static func create(folder: String, in directory: UFSDirectory, withIntermediateDirectories: Bool = false, attributes: [FileAttributeKey: Any]? = nil) throws -> UFSDirectory {
         return try UNIXFileSystem.create(folder: folder, at: directory.path, withIntermediateDirectories: withIntermediateDirectories, attributes: attributes)
     }
     
@@ -120,7 +120,7 @@ public extension UNIXFileSystem {
     ///
     /// - returns: A `UFSDirectory` or throws an `Error`.
     @discardableResult
-    public static func create(folder: String, at path: UFSPath, withIntermediateDirectories: Bool = false, attributes: [FileAttributeKey: Any]? = nil) throws -> UFSDirectory {
+    static func create(folder: String, at path: UFSPath, withIntermediateDirectories: Bool = false, attributes: [FileAttributeKey: Any]? = nil) throws -> UFSDirectory {
         if path.exists && path.isDirectory {
             return UFSDirectory(path)
         }
@@ -131,7 +131,7 @@ public extension UNIXFileSystem {
 // MARK: - Rename
 public extension UNIXFileSystem {
 
-    public static func rename<T: UFSRenameable>(item: inout T, to name: String) throws {
+    static func rename<T: UFSRenameable>(item: inout T, to name: String) throws {
         try item.rename(to: name)
     }
 }
@@ -139,7 +139,7 @@ public extension UNIXFileSystem {
 // MARK: - Remove
 public extension UNIXFileSystem {
     
-    public static func remove<T: UFSRemoveable>(item: T) throws {
+    static func remove<T: UFSRemoveable>(item: T) throws {
         try item.remove()
     }
 }
@@ -147,11 +147,11 @@ public extension UNIXFileSystem {
 // MARK: - Move
 public extension UNIXFileSystem {
     
-    public static func move<T: UFSMoveable>(item: inout T, to path: UFSPath) throws {
+    static func move<T: UFSMoveable>(item: inout T, to path: UFSPath) throws {
         try item.move(to: path)
     }
     
-    public static func move<T: UFSMoveableSubitem>(item: inout T, into parent: UFSParent) throws {
+    static func move<T: UFSMoveableSubitem>(item: inout T, into parent: UFSParent) throws {
         try item.move(into: parent)
     }
 }
@@ -160,12 +160,12 @@ public extension UNIXFileSystem {
 public extension UNIXFileSystem {
     
     @discardableResult
-    public static func copy<T: UFSCopyable>(item: T, to path: UFSPath) throws -> T {
+    static func copy<T: UFSCopyable>(item: T, to path: UFSPath) throws -> T {
         return try item.copy(to: path)
     }
     
     @discardableResult
-    public static func copy<T: UFSCopyableSubitem>(item: T, into parent: UFSParent) throws -> T {
+    static func copy<T: UFSCopyableSubitem>(item: T, into parent: UFSParent) throws -> T {
         return try item.copy(into: parent)
     }
 }
@@ -180,7 +180,7 @@ public extension UNIXFileSystem {
     /// - throws: An `Error`.
     ///
     /// - returns: the created `UFSLinkable`.
-    public static func link<T: UFSLinkable>(item: T, to path: UFSPath) throws -> UFSLinkable {
+    static func link<T: UFSLinkable>(item: T, to path: UFSPath) throws -> UFSLinkable {
         return try item.link(to: path)
     }
     
@@ -192,7 +192,7 @@ public extension UNIXFileSystem {
     /// - throws: An `Error`.
     ///
     /// - returns: The created `UFSSymbolicLink`.
-    public static func symbolicLink<T: UFSSymbolicLinkable>(item: T, to path: UFSPath) throws -> UFSSymbolicLink {
+    static func symbolicLink<T: UFSSymbolicLinkable>(item: T, to path: UFSPath) throws -> UFSSymbolicLink {
         return try item.symbolicLink(to: path)
     }
 }
